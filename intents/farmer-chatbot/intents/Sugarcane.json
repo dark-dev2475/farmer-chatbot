@@ -1,0 +1,130 @@
+{
+  "id": "cb2c37f4-f739-461f-9eeb-e057cb47b8a2",
+  "name": "Sugarcane",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Here are some FAQ\u0027s about Sugarcane😁"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "type": "button",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "name": "What are the Climatic Requirements for Sugarcane",
+                      "text": "What are the Climatic Requirements for Sugarcane",
+                      "value": "What are the Climatic Requirements for Sugarcane"
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "text": "What is the Nutritional value of Sugarcane",
+                      "type": "button",
+                      "name": "What is the Nutritional value of Sugarcane",
+                      "value": "What is the Nutritional value of Sugarcane"
+                    },
+                    {
+                      "value": "What is the Medicinal Value of Sugarcane",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "text": "What is the Medicinal Value of Sugarcane",
+                      "type": "button",
+                      "name": "What is the Medicinal Value of Sugarcane"
+                    },
+                    {
+                      "value": "Crop Production Practices for Sugarcane",
+                      "name": "Crop Production Practices for Sugarcane",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "text": "Crop Production Practices for Sugarcane",
+                      "type": "button"
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "type": "button",
+                      "name": "Selection of Seeds for Sugarcane",
+                      "value": "Selection of Seeds for Sugarcane",
+                      "text": "Selection of Seeds for Sugarcane"
+                    },
+                    {
+                      "text": "Select Topic",
+                      "value": "Select Topic",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "type": "button",
+                      "name": "Select Topic"
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/5670/5670633.png"
+                        }
+                      },
+                      "text": "Deficiency In Plants",
+                      "type": "button",
+                      "value": "Deficiency In Plants",
+                      "name": "Deficiency In Plants"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

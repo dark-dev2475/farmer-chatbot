@@ -1,0 +1,83 @@
+{
+  "id": "d869c1af-2afe-4827-844f-deef85c1ea56",
+  "name": "Planting-At-The-Wrong-Time",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "accordion",
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://www.flickr.com/photos/ricephotos/13597007274"
+                    }
+                  },
+                  "title": "Planting At The Wrong Time",
+                  "subtitle": "Signs: seeds never sprouting, repotted or transplanted plants dying.",
+                  "text": "Plants prone to this problem: columbine, penstemon, morning glory, and sweet peas are seeds that are harder to germinate.Starting your garden at the wrong time can ruin your garden before it even starts. To make sure you have a top garden, you need to know the frost dates and strictly abide by it. A frost date is the calculated average date of the first frost of fall or last freeze of spring specific to the area you live in. Frost dates vary greatly throughout the country. They are especially important for getting your gardening started without having to worry about the cold temperatures. The first average fall frost date is also time to harvest the crops before the freeze or move intolerant plants indoors to avoid cold damage. Planting too early or too late in the season can be the difference between germination or not. Planting or repotting at the wrong time of year can prematurely kill plants."
+                },
+                {
+                  "options": [
+                    {
+                      "value": "Select Topic",
+                      "text": "Select Topic",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "name": "Select Topic",
+                      "type": "button"
+                    },
+                    {
+                      "name": "Deficiency In Plants",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/5670/5670633.png"
+                        }
+                      },
+                      "text": "Deficiency In Plants",
+                      "type": "button",
+                      "value": "Deficiency In Plants"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,100 @@
+:root {
+	--bot-antenna-fill: #162D50;
+	--bot-head-fill: #162D50;
+	--bot-face-ring-fill: #FFFFFF;
+	--bot-body-fill: #162D50;
+	--bot-arm-left-fill: #162D50;
+	--bot-arm-right-fill: #162D50;
+	--bot-eyes-fill: #287DFF;
+	--bot-water-fill: transparent;
+	--bot-water-gleam-fill: #162D50;
+	--bot-leaf-fill: transparent;
+	--bot-fire-fill: transparent;
+	--bot-shadow-opacity: 0.4;
+        }
+        
+        .bot-fire,
+        .bot-water,
+        .bot-leaf{
+	transition: all ease 0.3s;
+	cursor: pointer;
+        }
+        
+        .bot-water:hover {
+	--bot-water-fill: #287DFF;
+        }
+        
+        .bot-fire:hover {
+	--bot-fire-fill: #C83737;
+        }
+        
+        .bot-leaf:hover {
+	--bot-leaf-fill: #5AA02C;
+        }
+        
+        // ANIMATIONS
+        #disasterbot {
+	animation-name: floating-shadow;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+        }
+        
+        .bot-shadow,
+        .bot{
+	transition: all ease 1s;
+        }
+        
+        .bot {
+	  animation-name: floating-bounce;
+	  animation-duration: 2s;
+	  animation-iteration-count: infinite;
+        }
+        
+        .bot-eyes {
+	animation-name: eyes-blink;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+        }
+        
+        @keyframes floating-shadow {
+	from {
+	  --bot-shadow-opacity: 0.3;
+	}
+	
+	50% {
+	  --bot-shadow-opacity: 0.6;
+	}
+        
+	to {
+	  --bot-shadow-opacity: 0.3;
+	}
+        }
+        
+        @keyframes floating-bounce {
+	from {
+	  transform: translatey(0);
+	}
+	
+	50% {
+	  transform: translatey(30px);
+	}
+        
+	to {
+	  transform: translatey(0);
+	}
+        }
+        
+        @keyframes eyes-blink {
+	from {
+	  opacity: 1;
+	}
+	1% {
+	  opacity: 0;
+	}
+	5% {
+	  opacity: 1;
+	}
+	to {
+	  opacity: 1;
+	}
+        }

@@ -1,0 +1,39 @@
+{
+  "id": "351539fe-348d-45d9-9520-ab8004147d80",
+  "parentId": "399d510b-01df-4e10-b722-2824dbe80148",
+  "rootParentId": "399d510b-01df-4e10-b722-2824dbe80148",
+  "name": "query-potato",
+  "auto": true,
+  "contexts": [
+    "query-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "query.query-potato",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Here are some FAQ\u0027s about Potato😁\n\n• What are the Climatic Requirements for Potato\n• What is the Nutritional value of Potato\n• What is the Medicinal Value of Potato\n• Crop Production Practices for Potato\n• Selection of Seeds for Potato"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

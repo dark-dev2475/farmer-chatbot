@@ -1,0 +1,39 @@
+{
+  "id": "05e9f6a9-e421-4d72-95b0-25fe34e1c1fd",
+  "parentId": "ed69e34a-d03a-45e7-a272-bcfdc1c1222f",
+  "rootParentId": "399d510b-01df-4e10-b722-2824dbe80148",
+  "name": "query-rice-Selection-of-Seeds-for-Rice",
+  "auto": true,
+  "contexts": [
+    "query-rice-followup-2"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "query.query-rice.query-rice-Selection-of-Seeds-for-Rice",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The use of quality seeds in cultivation of rice is an important factor to get better crop yield. Therefore, proper care has to be taken in selecting seeds of the best quality. Much of the success in raising the healthy seedlings depends on the quality of seed. Seeds intended for sowing should satisfy the following requirements\nThe seed should belong to the proper variety, which is proposed to be grown.The seed should be clean and free from obvious mixtures of other seeds.The seed should be mature, well developed and plump in size.The seed should be free from obvious signs of age or bad storage.The seed should have a high germinating capacity.Before sowing the seed should be treated with fungicides which protects the seed against soil-born fungi and also give a boost to the seedlings."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

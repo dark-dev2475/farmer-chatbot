@@ -1,0 +1,39 @@
+{
+  "id": "a77aa8ec-33c7-4fb8-a332-2f11020e50cd",
+  "parentId": "ed69e34a-d03a-45e7-a272-bcfdc1c1222f",
+  "rootParentId": "399d510b-01df-4e10-b722-2824dbe80148",
+  "name": "query-rice-What-is-the-Nutritional-value-of-Rice",
+  "auto": true,
+  "contexts": [
+    "query-rice-followup-2"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "query.query-rice.query-rice-What-is-the-Nutritional-value-of-Rice",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Rice is a nutritional staple food which provides instant energy as its most important component is carbohydrate (starch). On the other hand, rice is poor in nitrogenous substances with average composition of these substances being only 8 per cent and fat content or lipids only negligible, i.e., 1per cent and due to this reason it is considered as a complete food for eating. Rice flour is rich in starch and is used for making various food materials. It is also used in some instances by brewers to make alcoholic malt. Likewise, rice straw mixed with other materials is used to produce porcelain, glass and pottery. Rice is also used in manufacturing of paper pulp and livestock bedding."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

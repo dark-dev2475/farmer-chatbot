@@ -1,0 +1,115 @@
+{
+  "id": "ba25d680-3259-4823-8995-aabbf529bdc5",
+  "name": "Cotton-Crop-Production-Practices-for-Cotton",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Here is some info About🤖 :"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "Crop Production Practices for Cotton",
+                  "subtitle": "The Cotton crop requires a well-pulverized but compact seed bed for good and uniform germination.",
+                  "text": "Three or four ploughings in the summer, repeated harrowing in the rainy season, followed by three or four cultivations and planking immediately before sowing produce a good, firm seed bed for the dry crop on alluvial soils. For the irrigated crop, the land is given a pre-sowing irrigation (palewa or raund) and the number of ploughings is reduced. Where white ants or other pests are a problem, Aldrin 5% or BHC 10% dust at the rate of 25 kg/ha should be applied to the soil after the last ploughing or before planking.",
+                  "type": "accordion",
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://www.flickr.com/photos/ricephotos/13597007274"
+                    }
+                  }
+                },
+                {
+                  "options": [
+                    {
+                      "link": "http://127.0.0.1:8000/media/relatedvideos/practice.mp4",
+                      "text": "Related Video",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3074/3074767.png"
+                        }
+                      }
+                    },
+                    {
+                      "link": "http://127.0.0.1:8000/media/relatedpdf/practice.pdf",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/5968/5968517.png"
+                        }
+                      },
+                      "text": "Related Documents"
+                    },
+                    {
+                      "text": "Select Topic",
+                      "type": "button",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "name": "Select Topic",
+                      "value": "Select Topic"
+                    },
+                    {
+                      "type": "button",
+                      "value": "Try A Different Question For Cotton",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "name": "Try A Different Question For Cotton",
+                      "text": "Try A Different Question For Cotton"
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/5670/5670633.png"
+                        }
+                      },
+                      "type": "button",
+                      "text": "Deficiency In Plants",
+                      "name": "Deficiency In Plants",
+                      "value": "Deficiency In Plants"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

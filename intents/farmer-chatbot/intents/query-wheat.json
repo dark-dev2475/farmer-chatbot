@@ -1,0 +1,39 @@
+{
+  "id": "dc94588e-ef81-4247-9f8f-4fe0693d57da",
+  "parentId": "399d510b-01df-4e10-b722-2824dbe80148",
+  "rootParentId": "399d510b-01df-4e10-b722-2824dbe80148",
+  "name": "query-wheat",
+  "auto": true,
+  "contexts": [
+    "query-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "query.query-wheat",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Here Are Some FAQ\u0027s About Wheat😉\n\n• What are the Climatic Requirements for Wheat\n• What is the Soil Requirements for Wheat\n• Fertilizer management for Wheat\n• Nutrient management for Wheat"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

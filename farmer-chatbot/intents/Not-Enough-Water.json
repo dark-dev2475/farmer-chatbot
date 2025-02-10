@@ -1,0 +1,83 @@
+{
+  "id": "301b0ccf-768c-4cf2-b41d-886e318ed886",
+  "name": "Not-Enough-Water",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://www.flickr.com/photos/ricephotos/13597007274"
+                    }
+                  },
+                  "subtitle": "Signs: Dried leaves, wilting, dry soil.",
+                  "title": "Not Enough Water",
+                  "text": "Plants prone to these problems: bananas, impatiens, hibiscus, and most grass species need a lot of water.When starting out gardening, you may be confused about how much water your plants need. The last thing you want to see is your beautiful garden drying up and wilting. In addition, if given too little water, the plant can create shallow roots as it tries to utilize what little water it gets. Shallow roots will not survive drought conditions, and will soon die. Without sufficient watering, some plants can go beyond the point of recovery.To avoid these problems, you can test the soil’s moisture using a gauge probe that sticks into the dirt to report moisture readings. You can do this easier, but less accurately, by pushing a finger into the soil to see if it is dry beneath the surface. This may be obvious to some, but gardens require more frequent checking to prevent the soil from getting dried out during the summer season or heat waves. It is also useful to research the best time of day to water (e.g., early in the morning) to increase absorption and decrease water loss due to evaporation. Drip hoses are useful for preventing water evaporation as well.",
+                  "type": "accordion"
+                },
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "type": "button",
+                      "name": "Select Topic",
+                      "text": "Select Topic",
+                      "value": "Select Topic",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      }
+                    },
+                    {
+                      "name": "Deficiency In Plants",
+                      "text": "Deficiency In Plants",
+                      "value": "Deficiency In Plants",
+                      "type": "button",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/5670/5670633.png"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

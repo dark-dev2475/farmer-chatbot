@@ -1,0 +1,115 @@
+{
+  "id": "23d73e86-98bf-4773-bb92-2226aff01158",
+  "name": "Corn-What-is-the-Nutritional-value-of-Corn",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Here is some info About🤖 :"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://www.flickr.com/photos/ricephotos/13597007274"
+                    }
+                  },
+                  "title": "What is the Nutritional value of Corn",
+                  "type": "accordion",
+                  "text": "it has become the principal cereal, being more widely used for the making of bread than any other cereal because of the quality and quantity of its characteristic protein called gluten. Gluten makes bread dough stick together and gives it the ability to retain gas. Wheat has several medicinal virtues; starch and gluten in wheat provide heat and energy; the inner bran coats, phosphates and other mineral salts; the  outer bran, the much-needed roughage the indigestible portion that helps easy movement of bowels; the germ, vitamins B and E; and protein of wheat helps build and repair muscular tissue. The Corn germ, which is removed in  the process of refining, is also rich in essential vitamin E, the lack of which can lead to heart disease. The loss of vitamins and minerals in the refined wheat flour has led to widespread prevalence of constipation and  other digestive  disturbances  and nutritional disorders.  The  whole wheat,  which includes  bran  and wheat  germ, therefore, provides protection against diseases such as constipation, ischaemic, heart disease, disease of the colon called diverticulum, appendicitis, obesity and diabetes.",
+                  "subtitle": "Corn is  considered good source of protein, minerals, B-group vitamins and dietary fiber i.e. an excellent health-building food."
+                },
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3074/3074767.png"
+                        }
+                      },
+                      "text": "Related Video",
+                      "link": "http://127.0.0.1:8000/media/relatedvideos/nutrients.mp4"
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/5968/5968517.png"
+                        }
+                      },
+                      "link": "http://127.0.0.1:8000/media/relatedpdf/nutrients.pdf",
+                      "text": "Related Documents"
+                    },
+                    {
+                      "name": "Select Topic",
+                      "text": "Select Topic",
+                      "value": "Select Topic",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "type": "button"
+                    },
+                    {
+                      "value": "Try A Different Question For Corn",
+                      "type": "button",
+                      "text": "Try A Different Question For Corn",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "name": "Try A Different Question For Corn"
+                    },
+                    {
+                      "value": "Deficiency In Plants",
+                      "name": "Deficiency In Plants",
+                      "type": "button",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/5670/5670633.png"
+                        }
+                      },
+                      "text": "Deficiency In Plants"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

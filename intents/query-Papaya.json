@@ -1,0 +1,39 @@
+{
+  "id": "8d2df471-03bb-4b05-b05f-bb159dc0f1b6",
+  "parentId": "399d510b-01df-4e10-b722-2824dbe80148",
+  "rootParentId": "399d510b-01df-4e10-b722-2824dbe80148",
+  "name": "query-Papaya",
+  "auto": true,
+  "contexts": [
+    "query-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "query.query-Papaya",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Here are some FAQ\u0027s about Papaya😁\n\n• What are the Climatic Requirements for Papaya\n• What is the Nutritional value of Papaya\n• What is the Medicinal Value of Papaya\n• Crop Production Practices for Papaya\n• Selection of Seeds for Papaya"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

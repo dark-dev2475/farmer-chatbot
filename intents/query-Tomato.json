@@ -1,0 +1,39 @@
+{
+  "id": "e7a5d13c-fc96-44ee-bd6c-5f11871f1ab2",
+  "parentId": "399d510b-01df-4e10-b722-2824dbe80148",
+  "rootParentId": "399d510b-01df-4e10-b722-2824dbe80148",
+  "name": "query-Tomato",
+  "auto": true,
+  "contexts": [
+    "query-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "query.query-Tomato",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Here are some FAQ\u0027s about Tomato😁\n\n• What are the Climatic Requirements for Tomato\n• What is the Nutritional value of Tomato\n• What is the Medicinal Value of Tomato\n• Crop Production Practices for Tomato\n• Selection of Seeds for Tomato"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

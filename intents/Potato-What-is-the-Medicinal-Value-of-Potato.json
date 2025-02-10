@@ -1,0 +1,115 @@
+{
+  "id": "6842e864-14d7-40cd-abab-ca492c59cb01",
+  "name": "Potato-What-is-the-Medicinal-Value-of-Potato",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Here is some info About🤖 :"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://www.flickr.com/photos/ricephotos/13597007274"
+                    }
+                  },
+                  "subtitle": "Potato is a nutritional staple food which provides instant energy as its most important component is carbohydrate (starch).",
+                  "type": "accordion",
+                  "title": "What is the Medicinal Value of Potato",
+                  "text": "On the other hand, Potato is poor in nitrogenous substances with average composition of these substances being only 8 per cent and fat content or lipids only negligible, i.e., 1per cent and due to this reason it is considered as a complete food for eating. Corn flour is rich in starch and is used for making various food materials. It is also used in some instances by brewers to make alcoholic malt. Likewise, rice straw mixed with other materials is used to produce porcelain, glass and pottery. wheat is also used in manufacturing of paper pulp and livestock bedding.The variability of composition and characteristics of wheat is really broad and depends on variety and environmental conditions under which the crop is grown. In husked rice, protein content ranges in between 7per cent to 12per cent. The use of nitrogen fertilizers increases the percentage content of some amino acids."
+                },
+                {
+                  "options": [
+                    {
+                      "text": "Related Video",
+                      "link": "http://127.0.0.1:8000/media/relatedvideos/medicinal.mp4",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3074/3074767.png"
+                        }
+                      }
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/5968/5968517.png"
+                        }
+                      },
+                      "text": "Related Documents",
+                      "link": "http://127.0.0.1:8000/media/relatedpdf/medicinal.pdf"
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "text": "Select Topic",
+                      "type": "button",
+                      "value": "Select Topic",
+                      "name": "Select Topic"
+                    },
+                    {
+                      "text": "Try A Different Question For Potato",
+                      "name": "Try A Different Question For Potato",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "value": "Try A Different Question For Potato",
+                      "type": "button"
+                    },
+                    {
+                      "type": "button",
+                      "value": "Deficiency In Plants",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/5670/5670633.png"
+                        }
+                      },
+                      "name": "Deficiency In Plants",
+                      "text": "Deficiency In Plants"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

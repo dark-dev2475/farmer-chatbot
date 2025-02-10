@@ -1,0 +1,44 @@
+{
+  "id": "9caeaaad-9dca-4078-a9cf-ac94569bdf0d",
+  "parentId": "ed69e34a-d03a-45e7-a272-bcfdc1c1222f",
+  "rootParentId": "399d510b-01df-4e10-b722-2824dbe80148",
+  "name": "query-rice-Climatic-Requirements-for-Rice",
+  "auto": true,
+  "contexts": [
+    "query-rice-followup-2"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "query.query-rice.query-rice-Climatic-Requirements-for-Rice",
+      "affectedContexts": [
+        {
+          "name": "query-rice-custom-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "In India rice is grown under widely varying conditions of altitude and climate. Rice cultivation in India extends from 8 to35ºN latitude and from sea level to as high as 3000 meters. Rice crop needs a hot and humid climate. It is best suited to regions which have high humidity, prolonged sunshine and an assured supply of water. The average temperature required throughout the life period of the crop ranges from 21 to 37º C. Maximum temp which the crop can tolerate 400C to 42 0C"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

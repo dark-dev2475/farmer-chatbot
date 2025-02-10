@@ -1,0 +1,130 @@
+{
+  "id": "2ee5da04-5a9a-42b0-bba5-dc14ae4b3fd4",
+  "name": "Papaya",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Here are some FAQ\u0027s about Papaya😁"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "name": "What are the Climatic Requirements for Papaya",
+                      "text": "What are the Climatic Requirements for Papaya",
+                      "value": "What are the Climatic Requirements for Papaya",
+                      "type": "button",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      }
+                    },
+                    {
+                      "type": "button",
+                      "value": "What is the Nutritional value of Papaya",
+                      "name": "What is the Nutritional value of Papaya",
+                      "text": "What is the Nutritional value of Papaya",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      }
+                    },
+                    {
+                      "type": "button",
+                      "value": "What is the Medicinal Value of Papaya",
+                      "text": "What is the Medicinal Value of Papaya",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "name": "What is the Medicinal Value of Papaya"
+                    },
+                    {
+                      "name": "Crop Production Practices for Papaya",
+                      "value": "Crop Production Practices for Papaya",
+                      "text": "Crop Production Practices for Papaya",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "type": "button"
+                    },
+                    {
+                      "type": "button",
+                      "name": "Selection of Seeds for Papaya",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "text": "Selection of Seeds for Papaya",
+                      "value": "Selection of Seeds for Papaya"
+                    },
+                    {
+                      "type": "button",
+                      "text": "Select Topic",
+                      "value": "Select Topic",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "name": "Select Topic"
+                    },
+                    {
+                      "name": "Deficiency In Plants",
+                      "text": "Deficiency In Plants",
+                      "value": "Deficiency In Plants",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/5670/5670633.png"
+                        }
+                      },
+                      "type": "button"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

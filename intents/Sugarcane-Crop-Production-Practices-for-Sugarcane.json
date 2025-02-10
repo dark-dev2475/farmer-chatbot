@@ -1,0 +1,115 @@
+{
+  "id": "5937f1b6-182a-4eb5-8067-08c478b804ee",
+  "name": "Sugarcane-Crop-Production-Practices-for-Sugarcane",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Here is some info About🤖 :"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "accordion",
+                  "title": "Crop Production Practices for Sugarcane",
+                  "text": "Three or four ploughings in the summer, repeated harrowing in the rainy season, followed by three or four cultivations and planking immediately before sowing produce a good, firm seed bed for the dry crop on alluvial soils. For the irrigated crop, the land is given a pre-sowing irrigation (palewa or raund) and the number of ploughings is reduced. Where white ants or other pests are a problem, Aldrin 5% or BHC 10% dust at the rate of 25 kg/ha should be applied to the soil after the last ploughing or before planking.",
+                  "subtitle": "The Sugarcane crop requires a well-pulverized but compact seed bed for good and uniform germination.",
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://www.flickr.com/photos/ricephotos/13597007274"
+                    }
+                  }
+                },
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "link": "http://127.0.0.1:8000/media/relatedvideos/practice.mp4",
+                      "text": "Related Video",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3074/3074767.png"
+                        }
+                      }
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/5968/5968517.png"
+                        }
+                      },
+                      "text": "Related Documents",
+                      "link": "http://127.0.0.1:8000/media/relatedpdf/practice.pdf"
+                    },
+                    {
+                      "text": "Select Topic",
+                      "value": "Select Topic",
+                      "type": "button",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "name": "Select Topic"
+                    },
+                    {
+                      "value": "Try A Different Question For Sugarcane",
+                      "text": "Try A Different Question For Sugarcane",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "type": "button",
+                      "name": "Try A Different Question For Sugarcane"
+                    },
+                    {
+                      "text": "Deficiency In Plants",
+                      "value": "Deficiency In Plants",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/5670/5670633.png"
+                        }
+                      },
+                      "type": "button",
+                      "name": "Deficiency In Plants"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

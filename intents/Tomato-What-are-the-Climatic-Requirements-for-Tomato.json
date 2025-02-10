@@ -1,0 +1,125 @@
+{
+  "id": "2db9a3a6-d4d1-452f-9c41-11146d7b4584",
+  "name": "Tomato-What-are-the-Climatic-Requirements-for-Tomato",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Here is some info About🤖 :"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "accordion",
+                  "subtitle": "Tomato has wide adaptability. It can be grown not only in the tropical and sub-tropical zones, but also in the temperate zone and the cold tracts of the far north",
+                  "text": ",beyond even the 60 degree north altitude . Wheat can tolerate severe cold and snow and resume growth with the setting in of warm weather in spring .It can be cultivated from sea level to as high as 3300 meters.The best wheat are produced in areas favoured with cool, moist weather during the major portion of the growing period followed by dry, warm weather to enable the grain to ripen properly. The optimum temperature range for ideal germination of wheat seed is 20-25 C though the seeds can germinate in the temperature range 3.5 to 35 c. Rains just after sowing hamper germination and encourage seedling blight. Areas with a warm and damp climate are not suited for wheat growing.During the heading and flowering stages, excessively high or low temperatures and drought are harmful to wheat. Cloudy weather, with high humidity and low temperatures is conducive for rust attack. Wheat plant requires about 14-15 c optimum average temperature at the time of ripening . The temperature conditions at the time of grain filling and development are very crucial for yield. Temperatures above 250c during this period tend to depress grain weight. When temperatures are high, too much energy I lost through the process of transpiration by the plants and the reduced residual energy results in poorer grain formation and lower yields. Wheat is mainly a rabi (winter) season crop in India.",
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://www.flickr.com/photos/ricephotos/13597007274"
+                    }
+                  }
+                },
+                {
+                  "options": [
+                    {
+                      "text": "Related Video",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3074/3074767.png"
+                        }
+                      },
+                      "link": "http://127.0.0.1:8000/media/relatedvideos/climate.mp4"
+                    },
+                    {
+                      "link": "http://127.0.0.1:8000/media/relatedpdf/climate.pdf",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/5968/5968517.png"
+                        }
+                      },
+                      "text": "Related Documents"
+                    },
+                    {
+                      "type": "button",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "value": "Select Topic",
+                      "text": "Select Topic",
+                      "name": "Select Topic"
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "type": "button",
+                      "value": "Try A Different Question For Tomato",
+                      "text": "Try A Different Question For Tomato",
+                      "name": "Try A Different Question For Tomato"
+                    },
+                    {
+                      "name": "Deficiency In Plants",
+                      "type": "button",
+                      "text": "Deficiency In Plants",
+                      "value": "Deficiency In Plants",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/5670/5670633.png"
+                        }
+                      }
+                    },
+                    {
+                      "name": "Deficiency In Plants",
+                      "text": "Deficiency In Plants",
+                      "value": "Deficiency In Plants",
+                      "type": "button",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/5670/5670633.png"
+                        }
+                      }
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,130 @@
+{
+  "id": "bf0431c6-4f8f-4467-aaa7-f66a67d11461",
+  "name": "Potato",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Here are some FAQ\u0027s about Potato😁"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "name": "What are the Climatic Requirements for Potato",
+                      "value": "What are the Climatic Requirements for Potato",
+                      "text": "What are the Climatic Requirements for Potato",
+                      "type": "button"
+                    },
+                    {
+                      "value": "What is the Nutritional value of Potato",
+                      "text": "What is the Nutritional value of Potato",
+                      "type": "button",
+                      "name": "What is the Nutritional value of Potato",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      }
+                    },
+                    {
+                      "name": "What is the Medicinal Value of Potato",
+                      "text": "What is the Medicinal Value of Potato",
+                      "type": "button",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "value": "What is the Medicinal Value of Potato"
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "value": "Crop Production Practices for Potato",
+                      "text": "Crop Production Practices for Potato",
+                      "name": "Crop Production Practices for Potato",
+                      "type": "button"
+                    },
+                    {
+                      "text": "Selection of Seeds for Potato",
+                      "name": "Selection of Seeds for Potato",
+                      "type": "button",
+                      "value": "Selection of Seeds for Potato",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      }
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "name": "Select Topic",
+                      "text": "Select Topic",
+                      "type": "button",
+                      "value": "Select Topic"
+                    },
+                    {
+                      "value": "Deficiency In Plants",
+                      "type": "button",
+                      "name": "Deficiency In Plants",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/5670/5670633.png"
+                        }
+                      },
+                      "text": "Deficiency In Plants"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

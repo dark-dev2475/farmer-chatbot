@@ -1,0 +1,296 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <meta name="description" content=""/>
+  <meta name="author" content=""/>
+  <title>Fertilizer</title>
+  <!-- loader-->
+  <link href="{% static 'user/assets/css/pace.min.css' %}" rel="stylesheet"/>
+  <link href="{% static 'user/assets/css/mycards.css' %}" rel="stylesheet"/>
+  <link href="{% static 'user/assets/css/mycards.css.map' %}" rel="stylesheet"/>
+
+  <script src="{% static 'user/assets/js/pace.min.js' %}"></script>
+  <!--favicon-->
+  <link rel="icon" href="{% static 'user/assets/images/favicon.ico' %}" type="image/x-icon">
+  <!-- simplebar CSS-->
+  <link href="{% static 'user/assets/plugins/simplebar/css/simplebar.css' %}" rel="stylesheet"/>
+  <!-- Bootstrap core CSS-->
+  <link href="{% static 'user/assets/css/bootstrap.min.css' %}" rel="stylesheet"/>
+  <!-- animate CSS-->
+  <link href="{% static 'user/assets/css/animate.css' %}" rel="stylesheet" type="text/css"/>
+  <!-- Icons CSS-->
+  <link href="{% static 'user/assets/css/icons.css' %}" rel="stylesheet" type="text/css"/>
+  <!-- Sidebar CSS-->
+  <link href="{% static 'user/assets/css/sidebar-menu.css' %}" rel="stylesheet"/>
+  <!-- Custom Style-->
+  <link href="{% static 'user/assets/css/app-style.css' %}" rel="stylesheet"/>
+  <link rel="stylesheet" href="{% static 'user/assets/css/bcard.css' %}">
+</head>
+
+<body class="bg-theme bg-theme1">
+
+<!-- start loader -->
+   <div id="pageloader-overlay" class="visible incoming"><div class="loader-wrapper-outer"><div class="loader-wrapper-inner" ><div class="loader"></div></div></div></div>
+   <!-- end loader -->
+
+<!-- Start wrapper-->
+ <div id="wrapper">
+  <div id="sidebar-wrapper" data-simplebar="" data-simplebar-auto-hide="true">
+  
+    <ul class="sidebar-menu do-nicescrol">
+       <li class="sidebar-header">MAIN NAVIGATION</li>
+       <li>
+         <a href="{% url 'user_dashboard' %}">
+           <i class="zmdi zmdi-group"></i> <span>Dashboard</span>
+         </a>
+       </li>
+ 
+       <li>
+         <a href="{% url 'user_chatbot_btn' %}">
+           <i class="zmdi zmdi-face"></i> <span>Chatbot</span>
+         </a>
+       </li>
+       <li class="sidebar-header">Account</li>
+       <li>
+         <a href="{% url 'user_myprofile' %}">
+           <i class="zmdi zmdi-account-o"></i> <span>My Profile</span>
+         </a>
+       </li>
+ 
+       <li>
+         <a href="{% url 'user_edit_profile' %}">
+           <i class="zmdi zmdi-accounts-list"></i> <span>Edit Profile</span>
+         </a>
+       </li>
+ 
+       <li>
+         <a href="{% url 'user_password' %}">
+           <i class="zmdi zmdi-lock"></i> <span>Change Password</span>
+         </a>
+       </li>
+       <li class="sidebar-header">General</li>
+       <li>
+         <a href="{% url 'user_cropdetails' %}">
+           <i class="zmdi zmdi-card"></i> <span>Crop Details</span>
+         </a>
+       </li>
+ 
+       <li>
+        <a href="{% url 'user_fertilizer' %}">
+          <i class="zmdi zmdi-card-giftcard"></i> <span>Fertilizer Details</span>
+        </a>
+      </li>
+      <li>
+        <a href="{% url 'user_feedback' %}">
+          <i class="zmdi zmdi-card"></i>
+          <span>Feedback</span>
+        </a>
+      </li>
+      <li>
+        <a href="{% url 'home' %}">
+          <i class="zmdi zmdi-run"></i> <span>Logout</span>
+        </a>
+      </li>
+       
+        
+     </ul>
+    
+    </div>
+    <!--End sidebar-wrapper-->
+ 
+ <!--Start topbar header-->
+ 
+ <!--End topbar header-->
+<div class="clearfix"></div>
+	
+  <div class="content-wrapper">
+    <div class="container-fluid">
+
+      <div class="row mt-3">
+
+
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+        <h1 class="">Fertilizer Details</h1>
+<section class="hero-section">
+  <div class="card-grid">
+    <a class="card" target="_blank"  href="https://extension.umn.edu/phosphorus-and-potassium/understanding-phosphorus-fertilizers">
+      <div class="card__background" style="background-image: url(https://th.bing.com/th/id/OIP.vj4bWBa-wBJywoy-DvWLFwHaGe?pid=ImgDet&rs=1)"></div>
+      <div class="card__content">
+        <h4 class="card__heading">Phosphorus Fertilizer</h4>
+        <p class="card__category mt-5 text-white">Phosphorus from manure or sludge should be comparable to P from inorganic fertilizer.</p>
+      </div>
+    </a>
+    <a class="card" target="_blank"  href="https://www.myplantwarehouse.com.au/all-you-need-to-know-about-nitrogen-fertilizers/#:~:text=Role%20of%20Nitrogen%20Fertilizers%20in%20Plant%20Growth%201,Phosphorus%20...%205%201.5%20Distribution%20of%20Nutrients%20">
+	<div class="card__background" style="background-image: url(https://th.bing.com/th/id/OIP.wvWawSVfdclVzu-1beDD0wHaHa?pid=ImgDet&rs=1)"></div>
+	<div class="card__content">
+	  <h4 class="card__heading">Nitrogen Fertilizer</h4>
+	  <p class="card__category mt-5 text-white">Photosynthesis of Starch and Cellulose Nitrogen is an essential element in the Photosynthesis of starch and cellulose in plants, so feeding the plants with nitrogen is very essential.</p>
+	</div>
+        </a>
+        <a class="card" target="_blank"  href="https://www.finefertilizer.com/potassium-fertilizer/what-plants-need-potassium-fertilizer">
+	<div class="card__background" style="background-image: url(https://th.bing.com/th/id/OIP.IPYAI9Wgmq_037KNfiN2BQHaEL?w=285&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7)"></div>
+	<div class="card__content">
+	  <h4 class="card__heading">Potassium Fertilizer</h4>
+	  <p class="card__category mt-5 text-white">The quality or grade of potassium fertilisers is expressed as a percentage of potassium oxide (K 2 O) equivalent.</p>
+	</div>
+        </a>
+        <a class="card" target="_blank"  href="https://www.epa.gov/agriculture/agriculture-nutrient-management-and-fertilizer#:~:text=Fertilizers%20made%20from%20wastes%20Most%20fertilizers%20that%20are,other%20metals%2C%20that%20are%20necessary%20for%20plant%20growth.">
+	<div class="card__background" style="background-image: url(https://th.bing.com/th/id/OIP.dLnKD7XmgTw9f4YgfT61vAHaEA?pid=ImgDet&rs=1)"></div>
+	<div class="card__content">
+	  <h4 class="card__heading">Agricultural Waste</h4>
+	  <p class="card__category mt-5 text-white">Fertilizers made from wastes Most fertilizers that are commonly used in agriculture contain the three basic plant nutrients: nitrogen, phosphorus, and potassium.</p>
+	</div>
+        </a>
+        <a class="card" target="_blank"  href="https://www.ndsu.edu/agriculture/ag-hub/impact-stories/manure-fertilizer">
+	<div class="card__background" style="background-image: url(https://th.bing.com/th/id/OIP.KTuTv7aeG5645bKj0NcgewHaEM?pid=ImgDet&rs=1)"></div>
+	<div class="card__content">
+	  <h4 class="card__heading">livestock manure</h4>
+	  <p class="card__category mt-4 text-white">Most often, fresh manure is used as a nitrogen fertilizer while composted manure is used as a phosphorus fertilizer because phosphorus is approximately 80% available in both products.</p>
+	</div>
+        </a>
+        <a class="card" target="_blank"  href="https://www.epa.gov/agriculture/agriculture-nutrient-management-and-fertilizer#:~:text=Industrial%20waste%20materials%20are%20often%20used%20in%20fertilizers,is%20manufactured%20using%20industrial%20wastes%20as%20ingredients%2C%20and">
+	<div class="card__background" style="background-image: url(https://th.bing.com/th/id/OIP.t_otejAvlkxI5xSmS02OAAHaE8?w=278&h=185&c=7&r=0&o=5&dpr=1.3&pid=1.7)"></div>
+	<div class="card__content">
+	  <h4 class="card__heading">Industrial Waste</h4>
+	  <p class="card__category mt-5 text-white">Industrial waste is manufacturing waste from a wide range of different processes, such as sludges, product residues, kiln dust, slags, and ashes.</p>
+	</div>
+        </a>
+        <a class="card" target="_blank" href="https://iwaponline.com/washdev/article/10/4/1019/76254/Fertilizer-effect-of-composted-sewage-sludge-and#:~:text=HIGHLIGHTS%201%20Composted%20dewatered%20sewage%20sludge%20is%20rich,efficient%20than%20cattle%20manure%20to%20improve%20soil%20conditions.">
+	<div class="card__background" style="background-image: url(https://th.bing.com/th/id/OIP.x9o0dTKfWy_NE9oc-XB84QHaEL?w=296&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7)"></div>
+	<div class="card__content">
+	  <h4 class="card__heading">Municipal Sludge</h4>
+	  <p class="card__category mt-5 text-white">Municipal sludge has economic value as a low-grade fertilizer as it consists of appreciable amounts of the macro and micronutrients. When using sludge as fertilizer</p>
+	</div>
+        </a>
+    
+ 
+  <div>
+</section>
+
+
+        
+    </div>
+
+	<!--start overlay-->
+		  <div class="overlay toggle-menu"></div>
+		<!--end overlay-->
+	
+    </div>
+    <!-- End container-fluid-->
+   </div><!--End content-wrapper-->
+   <!--Start Back To Top Button-->
+    <a href="javaScript:void();" class="back-to-top"><i class="fa fa-angle-double-up"></i> </a>
+    <!--End Back To Top Button-->
+	
+	<!--Start footer-->
+	<footer class="footer">
+    <div class="container">
+      <div class="text-center">
+        Copyright © 2022 <a href="https://codebook.in/"> Student Name</a>
+      </div>
+    </div>
+  </footer>
+	<!--End footer-->
+	
+	<!--start color switcher-->
+   <div class="right-sidebar">
+    <div class="switcher-icon">
+      <i class="zmdi zmdi-settings zmdi-hc-spin"></i>
+    </div>
+    <div class="right-sidebar-content">
+
+      <p class="mb-0">Gaussion Texture</p>
+      <hr>
+      
+      <ul class="switcher">
+        <li id="theme1"></li>
+        <li id="theme2"></li>
+        <li id="theme3"></li>
+        <li id="theme4"></li>
+        <li id="theme5"></li>
+        <li id="theme6"></li>
+      </ul>
+
+      <p class="mb-0">Gradient Background</p>
+      <hr>
+      
+      <ul class="switcher">
+        <li id="theme7"></li>
+        <li id="theme8"></li>
+        <li id="theme9"></li>
+        <li id="theme10"></li>
+        <li id="theme11"></li>
+        <li id="theme12"></li>
+		<li id="theme13"></li>
+        <li id="theme14"></li>
+        <li id="theme15"></li>
+      </ul>
+      
+     </div>
+   </div>
+  <!--end color switcher-->
+   
+  </div><!--End wrapper-->
+
+  {% if messages %}
+  {% for message in messages %}
+  {% if message.level == DEFAULT_MESSAGE_LEVELS.SUCCESS %}
+  <script>swal({
+          title: "Success!",
+          text: "{{message}}",
+          icon: "success",
+          button: "OK",
+      });
+  </script>
+  
+  {% elif message.level == DEFAULT_MESSAGE_LEVELS.WARNING %}
+  <script>swal({
+          title: "Warning :)",
+          text: "{{message}}",
+          icon: "warning",
+          button: "OK",
+      });
+  </script>
+  {% elif message.level == DEFAULT_MESSAGE_LEVELS.INFO %}
+  <script>swal({
+          title: "info :)",
+          text: "{{message}}",
+          icon: "info",
+          button: "OK",
+      });
+  </script>
+  {% elif message.level == DEFAULT_MESSAGE_LEVELS.ERROR %}
+  <script>swal({
+          title: "error :)",
+          text: "{{message}}",
+          icon: "error",
+          button: "OK",
+      });
+  </script>
+  {% endif %}
+  {% endfor %}
+  {% endif %}
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  
+  <!-- Bootstrap core JavaScript-->
+  <script src="{% static 'user/assets/js/jquery.min.js' %}"></script>
+  <script src="{% static 'user/assets/js/popper.min.js' %}"></script>
+  <script src="{% static 'user/assets/js/bootstrap.min.js' %}"></script>
+  <script src="{% static 'user/assets/js/mycards.js' %}"></script>
+
+	
+  <!-- simplebar js -->
+  <script src="{% static 'user/assets/plugins/simplebar/js/simplebar.js' %}"></script>
+  <!-- sidebar-menu js -->
+  <script src="{% static 'user/assets/js/sidebar-menu.js' %}"></script>
+  
+  <!-- Custom scripts -->
+  <script src="{% static 'user/assets/js/app-script.js' %}"></script>
+	
+</body>
+</html>

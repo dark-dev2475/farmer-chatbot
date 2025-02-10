@@ -1,0 +1,115 @@
+{
+  "id": "81c61399-bf37-48c2-9f9b-c7788a6513da",
+  "name": "Potato-Selection-of-Seeds-for-Potato",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Here is some info About🤖 :"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "subtitle": "Well developed, bold seed should be collected from fully dried crop and stored separately.",
+                  "text": "The seed should be healthy and free from seed borne diseased.It should be fee from admixture of weed seed.It should be stirred one to two times during hot period of the day.The dried seed should be then stored in gunny bags for sowing in new season.",
+                  "title": "Selection of Seeds for Potato",
+                  "type": "accordion",
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://www.flickr.com/photos/ricephotos/13597007274"
+                    }
+                  }
+                },
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "link": "http://127.0.0.1:8000/media/relatedvideos/seeds.mp4",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3074/3074767.png"
+                        }
+                      },
+                      "text": "Related Video"
+                    },
+                    {
+                      "text": "Related Documents",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/5968/5968517.png"
+                        }
+                      },
+                      "link": "http://127.0.0.1:8000/media/relatedpdf/seeds.pdf"
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "text": "Select Topic",
+                      "type": "button",
+                      "value": "Select Topic",
+                      "name": "Select Topic"
+                    },
+                    {
+                      "text": "Try A Different Question For Potato",
+                      "type": "button",
+                      "name": "Try A Different Question For Potato",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "value": "Try A Different Question For Potato"
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/5670/5670633.png"
+                        }
+                      },
+                      "value": "Deficiency In Plants",
+                      "name": "Deficiency In Plants",
+                      "text": "Deficiency In Plants",
+                      "type": "button"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,115 @@
+{
+  "id": "7750dbfb-7d9e-486b-818c-e74861c84299",
+  "name": "Tomato-Selection-of-Seeds-for-Tomato",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Here is some info About🤖 :"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "accordion",
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://www.flickr.com/photos/ricephotos/13597007274"
+                    }
+                  },
+                  "text": "The seed should be healthy and free from seed borne diseased.It should be fee from admixture of weed seed.It should be stirred one to two times during hot period of the day.The dried seed should be then stored in gunny bags for sowing in new season.",
+                  "subtitle": "Well developed, bold seed should be collected from fully dried crop and stored separately.",
+                  "title": "Selection of Seeds for Tomato"
+                },
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Related Video",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3074/3074767.png"
+                        }
+                      },
+                      "link": "http://127.0.0.1:8000/media/relatedvideos/seeds.mp4"
+                    },
+                    {
+                      "text": "Related Documents",
+                      "link": "http://127.0.0.1:8000/media/relatedpdf/seeds.pdf",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/5968/5968517.png"
+                        }
+                      }
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "text": "Select Topic",
+                      "name": "Select Topic",
+                      "value": "Select Topic",
+                      "type": "button"
+                    },
+                    {
+                      "name": "Try A Different Question For Tomato",
+                      "type": "button",
+                      "text": "Try A Different Question For Tomato",
+                      "value": "Try A Different Question For Tomato",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      }
+                    },
+                    {
+                      "type": "button",
+                      "text": "Deficiency In Plants",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/5670/5670633.png"
+                        }
+                      },
+                      "value": "Deficiency In Plants",
+                      "name": "Deficiency In Plants"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

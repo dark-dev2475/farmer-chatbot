@@ -1,0 +1,115 @@
+{
+  "id": "f6d1b17b-4805-4579-b950-a84612600c3b",
+  "name": "Sugarcane-Selection-of-Seeds-for-Sugarcane",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Here is some info About🤖 :"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": "The seed should be healthy and free from seed borne diseased.It should be fee from admixture of weed seed.It should be stirred one to two times during hot period of the day.The dried seed should be then stored in gunny bags for sowing in new season.",
+                  "title": "Selection of Seeds for Sugarcane",
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://www.flickr.com/photos/ricephotos/13597007274"
+                    }
+                  },
+                  "subtitle": "Well developed, bold seed should be collected from fully dried crop and stored separately.",
+                  "type": "accordion"
+                },
+                {
+                  "options": [
+                    {
+                      "link": "http://127.0.0.1:8000/media/relatedvideos/seeds.mp4",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3074/3074767.png"
+                        }
+                      },
+                      "text": "Related Video"
+                    },
+                    {
+                      "text": "Related Documents",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/5968/5968517.png"
+                        }
+                      },
+                      "link": "http://127.0.0.1:8000/media/relatedpdf/seeds.pdf"
+                    },
+                    {
+                      "text": "Select Topic",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "name": "Select Topic",
+                      "type": "button",
+                      "value": "Select Topic"
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "value": "Try A Different Question For Sugarcane",
+                      "type": "button",
+                      "text": "Try A Different Question For Sugarcane",
+                      "name": "Try A Different Question For Sugarcane"
+                    },
+                    {
+                      "value": "Deficiency In Plants",
+                      "type": "button",
+                      "text": "Deficiency In Plants",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/5670/5670633.png"
+                        }
+                      },
+                      "name": "Deficiency In Plants"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

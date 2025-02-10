@@ -1,0 +1,115 @@
+{
+  "id": "f3c0a8fd-e059-4f1e-b8ea-6d1f0f305f7e",
+  "name": "Rice-What-is-the-Medicinal-Value-of-Rice",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Rice-What-is-the-Medicinal-Value-of-Rice",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Here is some info About🤖 :"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "accordion",
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://www.flickr.com/photos/ricephotos/13597007274"
+                    }
+                  },
+                  "subtitle": "The immense diversity of rice germplasm is a rich source for many rice based products and is also used for treating many health related maladies such as indigestion, diabetes, arthritis, paralysis, epilepsy and give strength to pregnant and lactating mothers",
+                  "title": "What is the Medicinal Value of Rice",
+                  "text": "Ancient Ayurvedic literature testify the medicinal and curative properties of different types of rice grown in India. Medicinal rice varieties like Kanthi Banko (Chhattisgarh), Meher, Saraiphul \u0026 Danwar (Orissa), Atikaya \u0026 Kari Bhatta (Karnataka), are very common in India. Few varieties cultivated in restricted pockets of Kerala for their medical properties e.g. Chennellu, Kunjinellu, Erumakkari \u0026 Karuthachembavu etc."
+                },
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Related Video",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3074/3074767.png"
+                        }
+                      },
+                      "link": "http://127.0.0.1:8000/media/relatedvideos/medicinal.mp4"
+                    },
+                    {
+                      "text": "Related Documents",
+                      "link": "http://127.0.0.1:8000/media/relatedpdf/medicinal.pdf",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/5968/5968517.png"
+                        }
+                      }
+                    },
+                    {
+                      "text": "Select Topic",
+                      "name": "Select Topic",
+                      "type": "button",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "value": "Select Topic"
+                    },
+                    {
+                      "value": "Try A Different Question For Rice",
+                      "type": "button",
+                      "text": "Try A Different Question For Rice",
+                      "name": "Try A Different Question For Rice",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      }
+                    },
+                    {
+                      "type": "button",
+                      "name": "Deficiency In Plants",
+                      "text": "Deficiency In Plants",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/5670/5670633.png"
+                        }
+                      },
+                      "value": "Deficiency In Plants"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

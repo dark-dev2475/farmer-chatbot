@@ -1,0 +1,115 @@
+{
+  "id": "5b01ee47-7a9b-4b4b-89f9-094f7972131b",
+  "name": "Papaya-Selection-of-Seeds-for-Papaya",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Here is some info About🤖 :"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "accordion",
+                  "title": "Selection of Seeds for Papaya",
+                  "subtitle": "Well developed, bold seed should be collected from fully dried crop and stored separately.",
+                  "text": "The seed should be healthy and free from seed borne diseased.It should be fee from admixture of weed seed.It should be stirred one to two times during hot period of the day.The dried seed should be then stored in gunny bags for sowing in new season.",
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://www.flickr.com/photos/ricephotos/13597007274"
+                    }
+                  }
+                },
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3074/3074767.png"
+                        }
+                      },
+                      "link": "http://127.0.0.1:8000/media/relatedvideos/seeds.mp4",
+                      "text": "Related Video"
+                    },
+                    {
+                      "text": "Related Documents",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/5968/5968517.png"
+                        }
+                      },
+                      "link": "http://127.0.0.1:8000/media/relatedpdf/seeds.pdf"
+                    },
+                    {
+                      "text": "Select Topic",
+                      "value": "Select Topic",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "name": "Select Topic",
+                      "type": "button"
+                    },
+                    {
+                      "value": "Try A Different Question For Papaya",
+                      "name": "Try A Different Question For Papaya",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "type": "button",
+                      "text": "Try A Different Question For Papaya"
+                    },
+                    {
+                      "value": "Deficiency In Plants",
+                      "text": "Deficiency In Plants",
+                      "type": "button",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/5670/5670633.png"
+                        }
+                      },
+                      "name": "Deficiency In Plants"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,130 @@
+{
+  "id": "fefcdcf9-0184-404d-9b41-31dd00d3c7f6",
+  "name": "Rice",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Here are some FAQ\u0027s about Rice😁"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "name": "What are the Climatic Requirements for Rice",
+                      "value": "What are the Climatic Requirements for Rice",
+                      "text": "What are the Climatic Requirements for Rice",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "type": "button"
+                    },
+                    {
+                      "text": "What is the Nutritional value of Rice",
+                      "value": "What is the Nutritional value of Rice",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "type": "button",
+                      "name": "What is the Nutritional value of Rice"
+                    },
+                    {
+                      "type": "button",
+                      "name": "What is the Medicinal Value of Rice",
+                      "text": "What is the Medicinal Value of Rice",
+                      "value": "What is the Medicinal Value of Rice",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      }
+                    },
+                    {
+                      "value": "Crop Production Practices for Rice",
+                      "text": "Crop Production Practices for Rice",
+                      "type": "button",
+                      "name": "Crop Production Practices for Rice",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      }
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "name": "Selection of Seeds for Rice",
+                      "text": "Selection of Seeds for Rice",
+                      "type": "button",
+                      "value": "Selection of Seeds for Rice"
+                    },
+                    {
+                      "text": "Select Topic",
+                      "name": "Select Topic",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "value": "Select Topic",
+                      "type": "button"
+                    },
+                    {
+                      "name": "Deficiency In Plants",
+                      "type": "button",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/5670/5670633.png"
+                        }
+                      },
+                      "text": "Deficiency In Plants",
+                      "value": "Deficiency In Plants"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

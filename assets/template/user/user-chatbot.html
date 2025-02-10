@@ -1,0 +1,616 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>ChatBot</title>
+    <!-- loader-->
+    <!-- <link href="assets/css/pace.min.css" rel="stylesheet"/>
+  <script src="assets/js/pace.min.js"></script> -->
+    <!--favicon-->
+    <link
+      rel="icon"
+      href="{% static 'user/assets/images/favicon.ico' %}"
+      type="image/x-icon"
+    />
+    <!--Full Calendar Css-->
+    <link
+      href="{% static 'user/assets/plugins/fullcalendar/css/fullcalendar.min.css' %}"
+      rel="stylesheet"
+    />
+    <!-- simplebar CSS-->
+    <link
+      href="{% static 'user/assets/plugins/simplebar/css/simplebar.css' %}"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap core CSS-->
+    <link
+      href="{% static 'user/assets/css/bootstrap.min.css' %}"
+      rel="stylesheet"
+    />
+    <!-- animate CSS-->
+    <link
+      href="{% static 'user/assets/css/animate.css' %}"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Icons CSS-->
+    <link
+      href="{% static 'user/assets/css/icons.css' %}"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Sidebar CSS-->
+    <link
+      href="{% static 'user/assets/css/sidebar-menu.css' %}"
+      rel="stylesheet"
+    />
+    <!-- Custom Style-->
+    <link
+      href="{% static 'user/assets/css/app-style.css' %}"
+      rel="stylesheet"
+    />
+    <!-- mycode -->
+    <link
+      href="{% static 'user/assets/css/preloader.css' %}"
+      rel="stylesheet"
+    />
+    <link href="{% static 'user/assets/css/bot.css' %}" rel="stylesheet" />
+
+    <!-- <script src="assets/js/preloader.js"></script> -->
+    <style>
+      df-messenger {
+        --df-messenger-bot-message: #878fac;
+        --df-messenger-button-titlebar-color: #000000;
+        --df-messenger-chat-background-color: #71c0d0;
+        --df-messenger-font-color: white;
+        --df-messenger-send-icon: #878fac;
+        --df-messenger-user-message: #4a3d9b;
+      }
+    </style>
+  </head>
+
+  <body class="bg-theme bg-theme1" onload="myFunction()" style="margin: 0">
+    <div class="lode" id="lode">
+      <!-- start -->
+      <link
+        href="https://fonts.googleapis.com/css?family=Varela+Round"
+        rel="stylesheet"
+      />
+      <div id="particles-background" class="vertical-centered-box"></div>
+      <div class="moon">
+        <svg class="moon-svg" id="moon-svg" width="400" height="400">
+          <circle cx="200" cy="200" r="150" fill="#53676C" />
+          <circle cx="195" cy="195" r="145" fill="#A5B6BA" />
+          <circle cx="190" cy="190" r="130" fill="#B7C4C8" />
+          <circle cx="190" cy="180" r="110" fill="#DBE3E2" />
+          <ellipse
+            rx="33"
+            ry="25"
+            cx="160"
+            cy="280"
+            fill="#DBE3E2"
+            transform="rotate(20, 170, 280)"
+          />
+          <ellipse
+            rx="28"
+            ry="22"
+            cx="162"
+            cy="280"
+            fill="#B7C5C7"
+            transform="rotate(21, 170, 280)"
+          />
+          <ellipse rx="15" ry="18" cx="270" cy="250" fill="#DBE3E2" />
+          <ellipse rx="12" ry="14" cx="268" cy="252" fill="#B7C5C7" />
+          <ellipse
+            rx="8"
+            ry="5"
+            cx="140"
+            cy="80"
+            fill="#DBE3E2"
+            transform="rotate(-35,140,80)"
+          />
+          <ellipse
+            rx="20"
+            ry="25"
+            cx="265"
+            cy="120"
+            fill="#DBE3E2"
+            transform="rotate(-10,265,120)"
+          />
+          <ellipse
+            rx="50"
+            ry="45"
+            cx="220"
+            cy="170"
+            fill="#B7C5C7"
+            transform="rotate(30,220,170)"
+          />
+          <ellipse
+            rx="10"
+            ry="12"
+            cx="260"
+            cy="135"
+            fill="#B7C5C7"
+            transform="rotate(-40,260,130)"
+          />
+          <ellipse rx="5" ry="6" cx="270" cy="152" fill="#B7C5C7" />
+          <ellipse
+            rx="25"
+            ry="20"
+            cx="105"
+            cy="200"
+            fill="#DBE3E2"
+            transform="rotate(-55,120,220)"
+          />
+          <ellipse
+            rx="20"
+            ry="18"
+            cx="100"
+            cy="203"
+            fill="#B7C5C7"
+            transform="rotate(-45,120,220)"
+          />
+          <ellipse rx="8" ry="7" cx="130" cy="110" fill="#B7C5C7" />
+          <ellipse
+            rx="13"
+            ry="11"
+            cx="205"
+            cy="229"
+            fill="#B7C5C7"
+            transform="rotate(20,205,229)"
+          />
+        </svg>
+      </div>
+      <div id="particles-foreground" class="vertical-centered-box"></div>
+
+      <div class="vertical-centered-box">
+        <div class="content">
+          <div class="body">
+            <span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+            <div class="base">
+              <span></span>
+              <div class="face"></div>
+            </div>
+          </div>
+          <div class="longfazers">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <h1>Initializing AgriBot.....</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- start loader -->
+    <!-- <div id="pageloader-overlay" class="visible incoming"><div class="loader-wrapper-outer"><div class="loader-wrapper-inner" ><div class="loader"></div></div></div></div> -->
+    <!-- end loader -->
+
+    <!-- Start wrapper-->
+    <div style="display: none" id="myDi" class="animate-bottom">
+      <div id="wrapper">
+        <!--Start sidebar-wrapper-->
+        <div
+          id="sidebar-wrapper"
+          data-simplebar=""
+          data-simplebar-auto-hide="true"
+        >
+          <ul class="sidebar-menu do-nicescrol">
+            <li class="sidebar-header">MAIN NAVIGATION</li>
+            <li>
+              <a href="{% url 'user_dashboard' %}">
+                <i class="zmdi zmdi-group"></i> <span>Dashboard</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="http://127.0.0.1:5000/">
+                <i class="zmdi zmdi-face"></i> <span>Chatbot</span>
+              </a>
+            </li>
+
+            <li class="sidebar-header">Account</li>
+            <li>
+              <a href="{% url 'user_myprofile' %}">
+                <i class="zmdi zmdi-account-o"></i> <span>My Profile</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="{% url 'user_edit_profile' %}">
+                <i class="zmdi zmdi-accounts-list"></i>
+                <span>Edit Profile</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="{% url 'user_password' %}">
+                <i class="zmdi zmdi-lock"></i> <span>Change Password</span>
+              </a>
+            </li>
+            <li class="sidebar-header">General</li>
+            <li>
+              <a href="{% url 'user_cropdetails' %}">
+                <i class="zmdi zmdi-card"></i> <span>Crop Details</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="{% url 'user_fertilizer' %}">
+                <i class="zmdi zmdi-card-giftcard"></i>
+                <span>Fertilizer Details</span>
+              </a>
+            </li>
+            <li>
+              <a href="{% url 'user_feedback' %}">
+                <i class="zmdi zmdi-card"></i>
+                <span>Feedback</span>
+              </a>
+            </li>
+            <li>
+              <a href="{% url 'home' %}">
+                <i class="zmdi zmdi-run"></i><span>Logout</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!--End sidebar-wrapper-->
+
+        <!--Start topbar header-->
+
+
+
+        <!--End topbar header-->
+
+        <div class="clearfix"></div>
+        <div class="row ">
+          <!-- <div class="col-3"></div> -->
+          <div class="col-1 d-flex">
+            <img src="{% static 'user/assets/images/farm.png' %}" style="padding-left: 420px;" alt="">
+
+          </div>
+          <div class="col-6">
+            <svg
+              version="1.1"
+              id="disaster.bot"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              viewBox="0 0 720 720"
+            >
+              <defs>
+                <style type="text/css">
+                  .bot-antenna {
+                    fill: var(--bot-antenna-fill, #162d50);
+                  }
+
+                  .bot-head {
+                    fill: var(--bot-head-fill, #162d50);
+                  }
+
+                  .bot-face-ring {
+                    fill: var(--bot-face-ring-fill, #ffffff);
+                  }
+
+                  .bot-body {
+                    fill: var(--bot-body-fill, #162d50);
+                  }
+
+                  .bot-arm-left {
+                    fill: var(--bot-arm-left-fill, #162d50);
+                  }
+
+                  .bot-arm-right {
+                    fill: var(--bot-arm-left-fill, #162d50);
+                  }
+
+                  .bot-eyes {
+                    fill: var(
+                      --bot-eyes-fill,
+                      var(--ion-color-primary, #287dff)
+                    );
+                  }
+
+                  .bot-water {
+                    fill: var(
+                      --bot-water-fill,
+                      var(--ion-color-primary, #287dff)
+                    );
+                  }
+
+                  .bot-water-gleam {
+                    fill: var(
+                      --bot-water-gleam-fill,
+                      var(--bot-body-fill, #162d50)
+                    );
+                  }
+
+                  .bot-leaf {
+                    fill: var(
+                      --bot-leaf-fill,
+                      var(--ion-color-success, #5aa02c)
+                    );
+                  }
+
+                  .bot-fire {
+                    fill: var(
+                      --bot-fire-fill,
+                      var(--ion-color-danger, #c83737)
+                    );
+                  }
+
+                  .bot-shadow {
+                    opacity: var(--bot-shadow-opacity, 0.4);
+                  }
+                </style>
+              </defs>
+
+              <g class="bot-shadow">
+                <defs>
+                  <rect id="SVGID_1_" width="720" height="720" />
+                </defs>
+                <clipPath
+                  id="SVGID_00000167378324984750962720000016248138956742447514_"
+                >
+                  <use xlink:href="#SVGID_1_" style="overflow: visible" />
+                </clipPath>
+                <path
+                  style="
+                    clip-path: url(#SVGID_00000167378324984750962720000016248138956742447514_);
+                  "
+                  d="M252.05,683.13
+			c0,8.45,48.35,14.37,108.68,14.37c59.95,0,108.3-5.92,108.3-14.37c0-8.4-48.34-14.37-108.68-14.37
+			C300.4,668.76,252.05,674.73,252.05,683.13z"
+                />
+              </g>
+              <g class="bot">
+                <path
+                  class="bot-body"
+                  d="M360.55,320.89c-6.11,0-11.62,2.28-15.95,5.93l-67.45,67.43c-23.92,23.91-38.76,55.37-38.79,89.19
+			c0,67.49,54.7,122.2,122.19,122.2c67.48,0,122.19-54.71,122.19-122.2c-0.06-33.13-13.55-64.82-37.42-87.8l-68.84-68.84
+			C372.15,323.16,366.64,320.89,360.55,320.89z"
+                />
+                <path
+                  class="bot-body bot-head"
+                  d="M278.93,113.57l0,0.01c-4.64,0.48-9.07,1.03-13.24,1.63c-15.39,2.23-27.25,5.25-33.48,9.11
+			c-33.23,20.59-35.27,145.03-2.73,166.7c32.54,21.67,226.18,24.84,259.41,4.24c33.23-20.59,35.27-145.02,2.73-166.7
+			C466.83,112.06,348.57,106.29,278.93,113.57L278.93,113.57z"
+                />
+                <path
+                  class="bot-face-ring"
+                  d="M285.4,142.81c20.28-2.58,48.3-3.58,76.3-3.12c44.79,0.73,89.52,5.19,102.41,12.87
+			c25.77,15.36,24.32,103.31-1.93,117.82s-179.41,12-205.18-3.36c-25.76-15.36-24.33-103.3,1.92-117.81
+			C263.83,146.49,273.23,144.35,285.4,142.81z M279.99,135.02c-13.05,1.74-23.11,4.11-28.4,7.16
+			c-28.17,16.23-29.78,114.47-2.16,131.61c27.62,17.14,191.89,19.84,220.07,3.61c28.17-16.23,29.78-114.48,2.16-131.62
+			c-13.81-8.57-61.78-13.52-109.82-14.31C331.81,130.98,301.74,132.12,279.99,135.02z"
+                />
+                <path
+                  class="bot-eyes"
+                  d="M410.55,179.85c-7.94,0-15.55,3.15-21.17,8.77c-5.61,5.61-8.77,13.23-8.77,21.17
+			c0,7.94,3.15,15.55,8.77,21.17c5.62,5.61,13.23,8.77,21.17,8.77c7.94,0,15.55-3.15,21.17-8.77c5.62-5.62,8.77-13.23,8.77-21.17
+			c0-7.94-3.15-15.55-8.77-21.17C426.11,183,418.5,179.85,410.55,179.85z M310.54,179.85c-7.94,0-15.56,3.15-21.17,8.77
+			c-5.61,5.61-8.77,13.23-8.77,21.17c0,7.94,3.16,15.55,8.77,21.17c5.61,5.61,13.23,8.77,21.17,8.77c7.94,0,15.55-3.15,21.17-8.77
+			c5.61-5.62,8.77-13.23,8.77-21.17c0-7.94-3.16-15.55-8.77-21.17C326.09,183,318.48,179.85,310.54,179.85z"
+                />
+                <path
+                  class="bot-body bot-arm-left"
+                  d="M163.21,464.41c-10.29-0.55-24.78,3.65-34.27,21.48c-13.28,22.33-13.78,54.81,20.89,52.98
+			c16.72-0.88,14.75-14.57,27.14-40.13c10.45,0.36,5.35,15.12,15.17,17.71c6.96,1.84,8.49-5.53,7.99-11.44
+			c-1.2-14.06-5.39-26.69-11.76-32.11C182.67,468.04,172.98,464.93,163.21,464.41z M283.76,340.66c-1.47-0.04-3.05,0.16-4.73,0.64
+			c-56.15,14.38-96.15,73.84-113.87,109.47c8.51,1.51,16.34,5.06,23.86,10.58c20.7-34.45,43.59-74.21,96.71-93.84
+			c15.89-3.55,12.52-24.91-0.54-26.74C284.73,340.71,284.25,340.67,283.76,340.66z"
+                />
+                <path
+                  class="bot-body bot-antenna"
+                  d="M361.07,22.51c-1.11-0.03-2.18,0.02-3.26,0.12c-16.18,1.39-29.17,14.97-29.45,31.52
+			c-0.24,14.8,9.8,27.44,23.43,31.36l8.73,18.65v0.3l9.34-19.15c12.95-3.99,22.63-15.88,22.87-30.1
+			C393.02,37.55,378.73,22.8,361.07,22.51z"
+                />
+                <path
+                  class="bot-body bot-arm-right"
+                  d="M556.79,464.41c10.29-0.55,25.37,4.64,34.27,21.48c13.28,22.33,13.78,54.81-20.89,52.98
+			c-16.72-0.88-14.75-14.57-27.14-40.13c-10.45,0.36-5.35,15.12-15.17,17.71c-6.96,1.84-8.49-5.53-7.98-11.44
+			c1.2-14.06,5.39-26.69,11.76-32.11C537.33,468.04,547.02,464.93,556.79,464.41z M436.24,340.66c1.47-0.04,3.05,0.16,4.73,0.64
+			c56.15,14.38,96.15,73.84,113.87,109.47c-8.51,1.51-16.34,5.06-23.86,10.58c-20.7-34.45-43.59-74.21-96.71-93.84
+			c-15.89-3.55-12.52-24.91,0.54-26.74C435.27,340.71,435.75,340.67,436.24,340.66z"
+                />
+                <path
+                  class="bot-water"
+                  d="M283.08,431.39c-13.62,34.66,2.79,55.43,19.08,64.38c17.43,9.59,41.07,10.59,54.28,21.45
+			c24.54,20.17,7.48,66.43-33.26,56.03c-19.45-4.97-43.3-21.7-53.88-55.15C260.4,488.16,264.64,456.71,283.08,431.39z"
+                />
+                <path
+                  class="bot-leaf"
+                  d="M327.36,398.11c-27.21,9.82-45.84,39.71-36.98,69.79c9.76-24.04,32.09-64.36,84.42-63.66
+			c-60.63,4.74-76.25,71.27-76.25,71.27c13.39,6.3,23.39,9.55,42.42,1.7c32-13.19,38.37-62.5,92.35-50.75
+			C407.76,394.65,363.38,385.1,327.36,398.11L327.36,398.11z"
+                />
+                <path
+                  class="bot-fire"
+                  d="M375.44,516.06c2.23-21.97,16.67-28.94,28.77-31.11c-16.75,18.29-16.69,31.93-18.2,50.19
+			c-1.27,15.32-3.72,40.27-34.88,47.75c53.78,3.3,97.06-33.18,104.04-75.98c4.75-29.1-5.72-70.66-35.95-71.16
+			C383.82,435.76,365.6,474,375.44,516.06z"
+                />
+                <path
+                  class="bot-water-gleam"
+                  d="M284.87,540.68c11.36,16.35,26.52,25.23,39.34,28.51c18.8,4.8,30.82-3.13,36.33-14.34
+			c2.5-5.08,3.52-10.82,2.92-16.39c-3.86,16.33-19.65,29.95-43.7,23.81C308.45,559.39,295.68,552.49,284.87,540.68z"
+                />
+              </g>
+            </svg>
+          </div>
+          
+          <div class="col-1">
+            <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+            <df-messenger
+              chat-icon="https:&#x2F;&#x2F;cdn-icons-png.flaticon.com&#x2F;512&#x2F;3558&#x2F;3558860.png"
+              intent="WELCOME"
+              chat-title="Agribot"
+              agent-id="4076419a-e4fb-4ac7-abba-1e89c641aaf2"
+              language-code="en"
+            ></df-messenger>
+          </div>
+        </div>
+      </div>
+      <!--Start Back To Top Button-->
+      <a href="javaScript:void();" class="back-to-top"
+        ><i class="fa fa-angle-double-up"></i>
+      </a>
+      <!--End Back To Top Button-->
+
+      <!--start color switcher-->
+    
+      <!--end color switcher-->
+    </div>
+    <!--End wrapper-->
+    <!-- myjs -->
+    <!-- <script>
+	/*!
+ * Particleground
+ *
+ * @author Jonathan Nicol - @mrjnicol
+ * @version 1.1.0
+ * @description Creates a canvas based particle system background
+ *
+ * Inspired by http://requestlab.fr/ and http://disruptivebydesign.com/
+ */
+!function(a,b){"use strict";function c(a){a=a||{};for(var b=1;b<arguments.length;b++){var c=arguments[b];if(c)for(var d in c)c.hasOwnProperty(d)&&("object"==typeof c[d]?deepExtend(a[d],c[d]):a[d]=c[d])}return a}function d(d,g){function h(){if(y){r=b.createElement("canvas"),r.className="pg-canvas",r.style.display="block",d.insertBefore(r,d.firstChild),s=r.getContext("2d"),i();for(var c=Math.round(r.width*r.height/g.density),e=0;c>e;e++){var f=new n;f.setStackPos(e),z.push(f)}a.addEventListener("resize",function(){k()},!1),b.addEventListener("mousemove",function(a){A=a.pageX,B=a.pageY},!1),D&&!C&&a.addEventListener("deviceorientation",function(){F=Math.min(Math.max(-event.beta,-30),30),E=Math.min(Math.max(-event.gamma,-30),30)},!0),j(),q("onInit")}}function i(){r.width=d.offsetWidth,r.height=d.offsetHeight,s.fillStyle=g.dotColor,s.strokeStyle=g.lineColor,s.lineWidth=g.lineWidth}function j(){if(y){u=a.innerWidth,v=a.innerHeight,s.clearRect(0,0,r.width,r.height);for(var b=0;b<z.length;b++)z[b].updatePosition();for(var b=0;b<z.length;b++)z[b].draw();G||(t=requestAnimationFrame(j))}}function k(){i();for(var a=d.offsetWidth,b=d.offsetHeight,c=z.length-1;c>=0;c--)(z[c].position.x>a||z[c].position.y>b)&&z.splice(c,1);var e=Math.round(r.width*r.height/g.density);if(e>z.length)for(;e>z.length;){var f=new n;z.push(f)}else e<z.length&&z.splice(e);for(c=z.length-1;c>=0;c--)z[c].setStackPos(c)}function l(){G=!0}function m(){G=!1,j()}function n(){switch(this.stackPos,this.active=!0,this.layer=Math.ceil(3*Math.random()),this.parallaxOffsetX=0,this.parallaxOffsetY=0,this.position={x:Math.ceil(Math.random()*r.width),y:Math.ceil(Math.random()*r.height)},this.speed={},g.directionX){case"left":this.speed.x=+(-g.maxSpeedX+Math.random()*g.maxSpeedX-g.minSpeedX).toFixed(2);break;case"right":this.speed.x=+(Math.random()*g.maxSpeedX+g.minSpeedX).toFixed(2);break;default:this.speed.x=+(-g.maxSpeedX/2+Math.random()*g.maxSpeedX).toFixed(2),this.speed.x+=this.speed.x>0?g.minSpeedX:-g.minSpeedX}switch(g.directionY){case"up":this.speed.y=+(-g.maxSpeedY+Math.random()*g.maxSpeedY-g.minSpeedY).toFixed(2);break;case"down":this.speed.y=+(Math.random()*g.maxSpeedY+g.minSpeedY).toFixed(2);break;default:this.speed.y=+(-g.maxSpeedY/2+Math.random()*g.maxSpeedY).toFixed(2),this.speed.x+=this.speed.y>0?g.minSpeedY:-g.minSpeedY}}function o(a,b){return b?void(g[a]=b):g[a]}function p(){console.log("destroy"),r.parentNode.removeChild(r),q("onDestroy"),f&&f(d).removeData("plugin_"+e)}function q(a){void 0!==g[a]&&g[a].call(d)}var r,s,t,u,v,w,x,y=!!b.createElement("canvas").getContext,z=[],A=0,B=0,C=!navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry|BB10|mobi|tablet|opera mini|nexus 7)/i),D=!!a.DeviceOrientationEvent,E=0,F=0,G=!1;return g=c({},a[e].defaults,g),n.prototype.draw=function(){s.beginPath(),s.arc(this.position.x+this.parallaxOffsetX,this.position.y+this.parallaxOffsetY,g.particleRadius/2,0,2*Math.PI,!0),s.closePath(),s.fill(),s.beginPath();for(var a=z.length-1;a>this.stackPos;a--){var b=z[a],c=this.position.x-b.position.x,d=this.position.y-b.position.y,e=Math.sqrt(c*c+d*d).toFixed(2);e<g.proximity&&(s.moveTo(this.position.x+this.parallaxOffsetX,this.position.y+this.parallaxOffsetY),g.curvedLines?s.quadraticCurveTo(Math.max(b.position.x,b.position.x),Math.min(b.position.y,b.position.y),b.position.x+b.parallaxOffsetX,b.position.y+b.parallaxOffsetY):s.lineTo(b.position.x+b.parallaxOffsetX,b.position.y+b.parallaxOffsetY))}s.stroke(),s.closePath()},n.prototype.updatePosition=function(){if(g.parallax){if(D&&!C){var a=(u-0)/60;w=(E- -30)*a+0;var b=(v-0)/60;x=(F- -30)*b+0}else w=A,x=B;this.parallaxTargX=(w-u/2)/(g.parallaxMultiplier*this.layer),this.parallaxOffsetX+=(this.parallaxTargX-this.parallaxOffsetX)/10,this.parallaxTargY=(x-v/2)/(g.parallaxMultiplier*this.layer),this.parallaxOffsetY+=(this.parallaxTargY-this.parallaxOffsetY)/10}var c=d.offsetWidth,e=d.offsetHeight;switch(g.directionX){case"left":this.position.x+this.speed.x+this.parallaxOffsetX<0&&(this.position.x=c-this.parallaxOffsetX);break;case"right":this.position.x+this.speed.x+this.parallaxOffsetX>c&&(this.position.x=0-this.parallaxOffsetX);break;default:(this.position.x+this.speed.x+this.parallaxOffsetX>c||this.position.x+this.speed.x+this.parallaxOffsetX<0)&&(this.speed.x=-this.speed.x)}switch(g.directionY){case"up":this.position.y+this.speed.y+this.parallaxOffsetY<0&&(this.position.y=e-this.parallaxOffsetY);break;case"down":this.position.y+this.speed.y+this.parallaxOffsetY>e&&(this.position.y=0-this.parallaxOffsetY);break;default:(this.position.y+this.speed.y+this.parallaxOffsetY>e||this.position.y+this.speed.y+this.parallaxOffsetY<0)&&(this.speed.y=-this.speed.y)}this.position.x+=this.speed.x,this.position.y+=this.speed.y},n.prototype.setStackPos=function(a){this.stackPos=a},h(),{option:o,destroy:p,start:m,pause:l}}var e="particleground",f=a.jQuery;a[e]=function(a,b){return new d(a,b)},a[e].defaults={minSpeedX:.1,maxSpeedX:.7,minSpeedY:.1,maxSpeedY:.7,directionX:"center",directionY:"center",density:1e4,dotColor:"#666666",lineColor:"#666666",particleRadius:7,lineWidth:1,curvedLines:!1,proximity:100,parallax:!0,parallaxMultiplier:5,onInit:function(){},onDestroy:function(){}},f&&(f.fn[e]=function(a){if("string"==typeof arguments[0]){var b,c=arguments[0],g=Array.prototype.slice.call(arguments,1);return this.each(function(){f.data(this,"plugin_"+e)&&"function"==typeof f.data(this,"plugin_"+e)[c]&&(b=f.data(this,"plugin_"+e)[c].apply(this,g))}),void 0!==b?b:this}return"object"!=typeof a&&a?void 0:this.each(function(){f.data(this,"plugin_"+e)||f.data(this,"plugin_"+e,new d(this,a))})})}(window,document),/**
+* requestAnimationFrame polyfill by Erik Möller. fixes from Paul Irish and Tino Zijdel
+* @see: http://paulirish.com/2011/requestanimationframe-for-smart-animating/
+* @see: http://my.opera.com/emoller/blog/2011/12/20/requestanimationframe-for-smart-er-animating
+* @license: MIT license
+*/
+function(){for(var a=0,b=["ms","moz","webkit","o"],c=0;c<b.length&&!window.requestAnimationFrame;++c)window.requestAnimationFrame=window[b[c]+"RequestAnimationFrame"],window.cancelAnimationFrame=window[b[c]+"CancelAnimationFrame"]||window[b[c]+"CancelRequestAnimationFrame"];window.requestAnimationFrame||(window.requestAnimationFrame=function(b){var c=(new Date).getTime(),d=Math.max(0,16-(c-a)),e=window.setTimeout(function(){b(c+d)},d);return a=c+d,e}),window.cancelAnimationFrame||(window.cancelAnimationFrame=function(a){clearTimeout(a)})}();
+
+
+particleground(document.getElementById('particles-foreground'), {
+ dotColor: 'rgba(255, 255, 255, 1)',
+ lineColor: 'rgba(255, 255, 255, 0.05)',
+ minSpeedX: 0.3,
+ maxSpeedX: 0.6,
+ minSpeedY: 0.3,
+ maxSpeedY: 0.6,
+ density: 50000, // One particle every n pixels
+ curvedLines: false,
+ proximity: 250, // How close two dots need to be before they join
+ parallaxMultiplier: 10, // Lower the number is more extreme parallax
+ particleRadius: 4, // Dot size
+});
+
+particleground(document.getElementById('particles-background'), {
+ dotColor: 'rgba(255, 255, 255, 0.5)',
+ lineColor: 'rgba(255, 255, 255, 0.05)',
+ minSpeedX: 0.075,
+ maxSpeedX: 0.15,
+ minSpeedY: 0.075,
+ maxSpeedY: 0.15,
+ density: 30000, // One particle every n pixels
+ curvedLines: false,
+ proximity: 20, // How close two dots need to be before they join
+ parallaxMultiplier: 20, // Lower the number is more extreme parallax
+ particleRadius: 2, // Dot size
+});
+
+
+
+
+
+	var myVar;
+		
+	function myFunction() {
+	  myVar = setTimeout(showPage, 10000);
+	}
+		
+	function showPage() {
+	  document.getElementById("lode").style.display = "none";
+	  document.getElementById("myDi").style.display = "block";
+	}
+</script> -->
+    <!-- endmyjs -->
+
+    <!-- Bootstrap core JavaScript-->
+    <script>
+      
+		var myVar;
+			
+		function myFunction() {
+		  myVar = setTimeout(showPage, 7000);
+		}
+			
+		function showPage() {
+		  document.getElementById("lode").style.display = "none";
+		  document.getElementById("myDi").style.display = "block";
+		}
+    </script>
+    {% if messages %}
+    {% for message in messages %}
+    {% if message.level == DEFAULT_MESSAGE_LEVELS.SUCCESS %}
+    <script>swal({
+            title: "Success!",
+            text: "{{message}}",
+            icon: "success",
+            button: "OK",
+        });
+    </script>
+    
+    {% elif message.level == DEFAULT_MESSAGE_LEVELS.WARNING %}
+    <script>swal({
+            title: "Warning :)",
+            text: "{{message}}",
+            icon: "warning",
+            button: "OK",
+        });
+    </script>
+    {% elif message.level == DEFAULT_MESSAGE_LEVELS.INFO %}
+    <script>swal({
+            title: "info :)",
+            text: "{{message}}",
+            icon: "info",
+            button: "OK",
+        });
+    </script>
+    {% elif message.level == DEFAULT_MESSAGE_LEVELS.ERROR %}
+    <script>swal({
+            title: "error :)",
+            text: "{{message}}",
+            icon: "error",
+            button: "OK",
+        });
+    </script>
+    {% endif %}
+    {% endfor %}
+    {% endif %}
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    
+    <script src="{% static 'user/assets/js/jquery.min.js' %}"></script>
+    <script src="{% static 'user/assets/js/popper.min.js' %}"></script>
+    <script src="{% static 'user/assets/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'user/assets/js/preloader.js' %}"></script>
+
+    <!-- simplebar js -->
+    <script src="{% static 'user/assets/plugins/simplebar/js/simplebar.js' %}"></script>
+    <!-- sidebar-menu js -->
+    <script src="{% static 'user/assets/js/sidebar-menu.js' %}"></script>
+
+    <!-- Custom scripts -->
+    <script src="{% static 'user/assets/js/app-script.js' %}"></script>
+
+    <!-- Full Calendar -->
+    <script src="{% static 'user/assets/plugins/fullcalendar/js/moment.min.js' %}"></script>
+    <script src="{% static 'user/assets/plugins/fullcalendar/js/fullcalendar.min.js' %}"></script>
+    <script src="{% static 'user/assets/plugins/fullcalendar/js/fullcalendar-custom-script.js' %}"></script>
+  </body>
+</html>

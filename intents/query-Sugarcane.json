@@ -1,0 +1,39 @@
+{
+  "id": "5f135583-8d57-4467-84cd-c301bc75dc95",
+  "parentId": "399d510b-01df-4e10-b722-2824dbe80148",
+  "rootParentId": "399d510b-01df-4e10-b722-2824dbe80148",
+  "name": "query-Sugarcane",
+  "auto": true,
+  "contexts": [
+    "query-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "query.query-Sugarcane",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Here are some FAQ\u0027s about Sugarcane😁\n\n• What are the Climatic Requirements for Sugarcane\n• What is the Nutritional value of Sugarcane\n• What is the Medicinal Value of Sugarcane\n• Crop Production Practices for Sugarcane\n• Selection of Seeds for Sugarcane"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

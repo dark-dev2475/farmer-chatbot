@@ -1,0 +1,159 @@
+{
+  "id": "399d510b-01df-4e10-b722-2824dbe80148",
+  "name": "query",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "query-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Here are some queries I can help you with😉                                                                                                                                                                                                                                                  \n                                                                                                                                                                                                                       \n• Rice\n                                                                                                                                                                                                                   \n• Wheat                                                                                                                                                                                                                     \n                                                                                                                                                                                                   \n• Corn                                                                                                                                                                                                                  \n                                                                                                                                                                                                   \n• Potato                                                                                                                                                                                                                  \n\n• Cotton                                                                                                                                                                                                                  \n                                                                                                                                                                                                   \n• Maize                                                                                                                                                                                                                  \n\n• Papaya                                                                                                                                                                                                                  \n\n• Sugarcane                                                                                                                                                                                                                  \n\n• Tomato",
+            "Sure pickone 😉                                                                                                                                                                                                                                                 \n                                                                                                                                                                                                                       \n• Rice\n                                                                                                                                                                                                                   \n• Wheat                                                                                                                                                                                                                     \n                                                                                                                                                                                                   \n• Corn                                                                                                                                                                                                                  \n                                                                                                                                                                                                   \n• Potato                                                                                                                                                                                                                  \n\n• Cotton                                                                                                                                                                                                                  \n                                                                                                                                                                                                   \n• Maize                                                                                                                                                                                                                  \n\n• Papaya                                                                                                                                                                                                                  \n\n• Sugarcane                                                                                                                                                                                                                  \n\n• Tomato",
+            "Feel free to select one 😉                                                                                                                                                                                                                                                 \n                                                                                                                                                                                                                       \n• Rice\n                                                                                                                                                                                                                   \n• Wheat                                                                                                                                                                                                                     \n                                                                                                                                                                                                   \n• Corn                                                                                                                                                                                                                  \n                                                                                                                                                                                                   \n• Potato                                                                                                                                                                                                                  \n\n• Cotton                                                                                                                                                                                                                  \n                                                                                                                                                                                                   \n• Maize                                                                                                                                                                                                                  \n\n• Papaya                                                                                                                                                                                                                  \n\n• Sugarcane                                                                                                                                                                                                                  \n\n• Tomato"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "value": "Rice",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/616/616428.png"
+                        }
+                      },
+                      "type": "button",
+                      "name": "Rice",
+                      "text": "Rice"
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/7450/7450583.png"
+                        }
+                      },
+                      "text": "Wheat",
+                      "type": "button",
+                      "name": "Wheat",
+                      "value": "Wheat"
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/8930/8930958.png"
+                        }
+                      },
+                      "type": "button",
+                      "value": "Corn",
+                      "text": "Corn",
+                      "name": "Corn"
+                    },
+                    {
+                      "type": "button",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/1652/1652077.png"
+                        }
+                      },
+                      "name": "Potato",
+                      "value": "Potato",
+                      "text": "Potato"
+                    },
+                    {
+                      "text": "Cotton",
+                      "type": "button",
+                      "name": "Cotton",
+                      "value": "Cotton",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3944/3944317.png"
+                        }
+                      }
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3944/3944275.png"
+                        }
+                      },
+                      "type": "button",
+                      "text": "Maize",
+                      "value": "Maize",
+                      "name": "Maize"
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/765/765552.png"
+                        }
+                      },
+                      "type": "button",
+                      "text": "Papaya",
+                      "value": "Papaya",
+                      "name": "Papaya"
+                    },
+                    {
+                      "type": "button",
+                      "value": "Sugarcane",
+                      "name": "Sugarcane",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/5670/5670633.png"
+                        }
+                      },
+                      "text": "Sugarcane"
+                    },
+                    {
+                      "text": "Tomato",
+                      "name": "Tomato",
+                      "type": "button",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/5280/5280911.png"
+                        }
+                      },
+                      "value": "Tomato"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

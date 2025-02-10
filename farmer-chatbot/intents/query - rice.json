@@ -1,0 +1,48 @@
+{
+  "id": "ed69e34a-d03a-45e7-a272-bcfdc1c1222f",
+  "parentId": "399d510b-01df-4e10-b722-2824dbe80148",
+  "rootParentId": "399d510b-01df-4e10-b722-2824dbe80148",
+  "name": "query - rice",
+  "auto": true,
+  "contexts": [
+    "query-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "query.query-rice",
+      "affectedContexts": [
+        {
+          "name": "query-rice-followup-2",
+          "lifespan": 2
+        },
+        {
+          "name": "query-rice-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Here are some FAQ\u0027s about Rice😁\n\n• What are the Climatic Requirements for Rice\n• What is the Nutritional value of Rice\n• What is the Medicinal Value of Rice\n• Crop Production Practices for Rice\n• Selection of Seeds for Rice"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,83 @@
+{
+  "id": "6b40e181-51c3-4556-bea2-524f447c9034",
+  "name": "Too-Much-Sunshine",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "accordion",
+                  "subtitle": "Signs: Wilting, browning, yellow color on the stem and/or leaves, flowers and/or leaves fall off.",
+                  "text": "Plants prone to this problem: Bromeliad, peace lily, pothos, spider plant, peacock plant, and peperomia don’t need very much sun.The amount of sunshine you give a plant may seem like gardening basics, but even advanced gardeners struggle with the right balance. Believe it or not, plants can get sunburnt just like we can. Although they don’t get pink or red, they display discoloration such as brown or yellow. This process is called leaf sunscald, and this usually occurs when a plant is moved from one area to another. If you want to transfer some indoor plants outdoors, be aware of acclimation.Acclimation is necessary for any plant that has been indoors its whole life and has not been experienced direct sunlight. Without this, they can easily burn to a point beyond recovery. If you have potted plants, be vigilant moving them indoors or into a shaded area if you notice discoloration and signs of leaf sunscald.",
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://www.flickr.com/photos/ricephotos/13597007274"
+                    }
+                  },
+                  "title": "Too Much Sunshine"
+                },
+                {
+                  "options": [
+                    {
+                      "text": "Select Topic",
+                      "type": "button",
+                      "value": "Select Topic",
+                      "name": "Select Topic",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      }
+                    },
+                    {
+                      "text": "Deficiency In Plants",
+                      "value": "Deficiency In Plants",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/5670/5670633.png"
+                        }
+                      },
+                      "type": "button",
+                      "name": "Deficiency In Plants"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

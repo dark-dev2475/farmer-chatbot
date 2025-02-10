@@ -1,0 +1,115 @@
+{
+  "id": "64cbeaa4-a3ff-4a7e-8955-60b863bd286c",
+  "name": "Wheat-What-is-the-Nutritional-value-of-Wheat",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Here is some info About🤖 :"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "accordion",
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://www.flickr.com/photos/ricephotos/13597007274"
+                    }
+                  },
+                  "title": "What is the Nutritional value of Wheat",
+                  "text": "it has become the principal cereal, being more widely used for the making of bread than any other cereal because of the quality and quantity of its characteristic protein called gluten. Gluten makes bread dough stick together and gives it the ability to retain gas. Wheat has several medicinal virtues; starch and gluten in wheat provide heat and energy; the inner bran coats, phosphates and other mineral salts; the  outer bran, the much-needed roughage the indigestible portion that helps easy movement of bowels; the germ, vitamins B and E; and protein of wheat helps build and repair muscular tissue. The wheat germ, which is removed in  the process of refining, is also rich in essential vitamin E, the lack of which can lead to heart disease. The loss of vitamins and minerals in the refined wheat flour has led to widespread prevalence of constipation and  other digestive  disturbances  and nutritional disorders.  The  whole wheat,  which includes  bran  and wheat  germ, therefore, provides protection against diseases such as constipation, ischaemic, heart disease, disease of the colon called diverticulum, appendicitis, obesity and diabetes.",
+                  "subtitle": "Wheat is  considered good source of protein, minerals, B-group vitamins and dietary fiber i.e. an excellent health-building food."
+                },
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3074/3074767.png"
+                        }
+                      },
+                      "text": "Related Video",
+                      "link": "http://127.0.0.1:8000/media/relatedvideos/nutrients.mp4"
+                    },
+                    {
+                      "text": "Related Documents",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/5968/5968517.png"
+                        }
+                      },
+                      "link": "http://127.0.0.1:8000/media/relatedpdf/nutrients.pdf"
+                    },
+                    {
+                      "value": "Select Topic",
+                      "text": "Select Topic",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "name": "Select Topic",
+                      "type": "button"
+                    },
+                    {
+                      "text": "Try A Different Question For Wheat",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "type": "button",
+                      "name": "Try A Different Question For Wheat",
+                      "value": "Try A Different Question For Wheat"
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/5670/5670633.png"
+                        }
+                      },
+                      "text": "Deficiency In Plants",
+                      "value": "Deficiency In Plants",
+                      "type": "button",
+                      "name": "Deficiency In Plants"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

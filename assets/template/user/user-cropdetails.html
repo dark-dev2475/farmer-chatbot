@@ -1,0 +1,300 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <meta name="description" content=""/>
+  <meta name="author" content=""/>
+  <title>Crop Details</title>
+  <!-- loader-->
+  <link href="{% static 'user/assets/css/pace.min.css' %}" rel="stylesheet"/>
+  <link href="{% static 'user/assets/css/mycards.css' %}" rel="stylesheet"/>
+  <link href="{% static 'user/assets/css/mycards.css.map' %}" rel="stylesheet"/>
+
+  <script src="{% static 'user/assets/js/pace.min.js' %}"></script>
+  <!--favicon-->
+  <link rel="icon" href="{% static 'user/assets/images/favicon.ico' %}" type="image/x-icon">
+  <!-- simplebar CSS-->
+  <link href="{% static 'user/assets/plugins/simplebar/css/simplebar.css' %}" rel="stylesheet"/>
+  <!-- Bootstrap core CSS-->
+  <link href="{% static 'user/assets/css/bootstrap.min.css' %}" rel="stylesheet"/>
+  <!-- animate CSS-->
+  <link href="{% static 'user/assets/css/animate.css' %}" rel="stylesheet" type="text/css"/>
+  <!-- Icons CSS-->
+  <link href="{% static 'user/assets/css/icons.css' %}" rel="stylesheet" type="text/css"/>
+  <!-- Sidebar CSS-->
+  <link href="{% static 'user/assets/css/sidebar-menu.css' %}" rel="stylesheet"/>
+  <!-- Custom Style-->
+  <link href="{% static 'user/assets/css/app-style.css' %}" rel="stylesheet"/>
+  <link rel="stylesheet" href="{% static 'user/assets/css/bcard.css' %}">
+</head>
+
+<body class="bg-theme bg-theme1">
+
+<!-- start loader -->
+   <div id="pageloader-overlay" class="visible incoming"><div class="loader-wrapper-outer"><div class="loader-wrapper-inner" ><div class="loader"></div></div></div></div>
+   <!-- end loader -->
+   <div id="sidebar-wrapper" data-simplebar="" data-simplebar-auto-hide="true">
+  
+    <ul class="sidebar-menu do-nicescrol">
+       <li class="sidebar-header">MAIN NAVIGATION</li>
+       <li>
+         <a href="{% url 'user_dashboard' %}">
+           <i class="zmdi zmdi-group"></i> <span>Dashboard</span>
+         </a>
+       </li>
+ 
+       <li>
+         <a href="{% url 'user_chatbot_btn' %}">
+           <i class="zmdi zmdi-face"></i> <span>Chatbot</span>
+         </a>
+       </li>
+       <li class="sidebar-header">Account</li>
+       <li>
+         <a href="{% url 'user_myprofile' %}">
+           <i class="zmdi zmdi-account-o"></i> <span>My Profile</span>
+         </a>
+       </li>
+ 
+       <li>
+         <a href="{% url 'user_edit_profile' %}">
+           <i class="zmdi zmdi-accounts-list"></i> <span>Edit Profile</span>
+         </a>
+       </li>
+ 
+       <li>
+         <a href="{% url 'user_password' %}">
+           <i class="zmdi zmdi-lock"></i> <span>Change Password</span>
+         </a>
+       </li>
+       <li class="sidebar-header">General</li>
+       <li>
+         <a href="{% url 'user_cropdetails' %}">
+           <i class="zmdi zmdi-card"></i> <span>Crop Details</span>
+         </a>
+       </li>
+ 
+       <li>
+        <a href="{% url 'user_fertilizer' %}">
+          <i class="zmdi zmdi-card-giftcard"></i> <span>Fertilizer Details</span>
+        </a>
+      </li>
+      <li>
+        <a href="{% url 'user_feedback' %}">
+          <i class="zmdi zmdi-card"></i>
+          <span>Feedback</span>
+        </a>
+      </li>
+      <li>
+        <a href="{% url 'home' %}">
+          <i class="zmdi zmdi-run"></i> <span>Logout</span>
+        </a>
+      </li>
+       
+        
+     </ul>
+    
+    </div>
+    <!--End sidebar-wrapper-->
+ 
+ <!--Start topbar header-->
+ 
+ <!--End topbar header-->
+<div class="clearfix"></div>
+	
+  <div class="content-wrapper">
+    <div class="container-fluid">
+
+      <div class="row mt-3">
+
+
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+        <h1 class="">Crop Details</h1>
+<section class="hero-section">
+  <div class="card-grid">
+    <a class="card" target="_blank"  href="https://en.wikipedia.org/wiki/Rice">
+      <div class="card__background" style="background-image: url(https://3.bp.blogspot.com/-DMrQjfSg3yA/TkPXW_kfQJI/AAAAAAAAK80/csUuU3yjhBI/s1600/Rice+Farming+HD+Wallpapers+%252811%2529.jpg)"></div>
+      <div class="card__content">
+        <h4 class="card__heading">Rice</h4>
+        <p class="card__category mt-5 text-white">As a cereal grain, domesticated rice is the most widely consumed staple food for over half of the world's human population, especially in Asia and Africa.</p>
+      </div>
+    </a>
+    <a class="card" target="_blank"  href="https://en.wikipedia.org/wiki/Wheat">
+      <div class="card__background" style="background-image: url(https://images.tigerchick.com/v7/https://dodseed.com/assets/images/_fancybox_2x/Wheetseed1.jpg)"></div>
+      <div class="card__content">
+        <h4 class="card__heading">Wheat</h4>
+        <p class="card__category mt-5 text-white">Wheat is a grass widely cultivated for its seed, a cereal grain that is a worldwide staple food.</p>
+      </div>
+    </a>
+    <a class="card" target="_blank"  href="https://www.britannica.com/plant/corn-plant">
+      <div class="card__background" style="background-image: url(https://th.bing.com/th/id/OIP._e8nmLQ_MpT5cnxmyaSGEwHaE8?pid=ImgDet&rs=1)"></div>
+      <div class="card__content">
+        <h4 class="card__heading">Corn</h4>
+        <p class="card__category mt-5 text-white">Corn is a tall annual cereal grass ( Zea mays) that is widely grown for its large elongated ears of starchy seeds.</p>
+      </div>
+    </a>
+    <a class="card" target="_blank"  href="https://en.wikipedia.org/wiki/Potato">
+      <div class="card__background" style="background-image: url(https://th.bing.com/th/id/OIP.3GdahIhlQ6fYK9nrKP1ewQHaEg?pid=ImgDet&rs=1)"></div>
+      <div class="card__content">
+        <h4 class="card__heading">Potato</h4>
+        <p class="card__category mt-5 text-white">The potato is a starchy tuber of the plant Solanum tuberosum and is a root vegetable native to the Americas. The plant is a perennial in the nightshade family Solanaceae.</p>
+      </div>
+    </a>
+    <a class="card" target="_blank"  href="https://en.wikipedia.org/wiki/Cotton">
+      <div class="card__background" style="background-image: url(https://th.bing.com/th/id/OIP.LkqwfmteQCMQ-AVrjmJUfQHaEy?pid=ImgDet&rs=1)"></div>
+      <div class="card__content">
+        <h4 class="card__heading">Cotton</h4>
+        <p class="card__category mt-5 text-white">Cotton is a soft, fluffy staple fiber that grows in a boll, or protective case, around the seeds of the cotton plants of the genus Gossypium in the mallow family Malvaceae. </p>
+      </div>
+    </a>
+    <a class="card" target="_blank"  href="https://en.wikipedia.org/wiki/Papaya">
+      <div class="card__background" style="background-image: url(https://kansaslivingmagazine.com/sites/default/files/papaya.jpg)"></div>
+      <div class="card__content">
+        <h4 class="card__heading">Papaya</h4>
+        <p class="card__category mt-5 text-white">The papaya is a small, sparsely branched tree, usually with a single stem growing from 5 to 10 m (16 to 33 ft) tall, with spirally arranged leaves confined to the top of the trunk.</p>
+      </div>
+    </a>
+    <a class="card" target="_blank"  href="https://en.wikipedia.org/wiki/Sugarcane">
+      <div class="card__background" style="background-image: url(https://th.bing.com/th/id/R.31b581057a0c7141c02de54e418c04c8?rik=XpG1BXLdAkl%2fwg&riu=http%3a%2f%2fgetindustry.com.au%2fwp-content%2fuploads%2f2018%2f12%2fsugarcane-cut.jpg&ehk=6io%2fgV6IAZrBBQvVd9qHQuf3g2xMmQ0r%2bBFvKk85Ow8%3d&risl=&pid=ImgRaw&r=0)"></div>
+      <div class="card__content">
+        <h4 class="card__heading">Sugarcane</h4>
+        <p class="card__category mt-5 text-white">Sugarcane is a tropical, perennial grass that forms lateral shoots at the base to produce multiple stems, typically 3 to 4 m (10 to 13 ft) high and about 5 cm (2 in) in diameter.</p>
+      </div>
+    </a>
+    <a class="card" target="_blank"  href="https://en.wikipedia.org/wiki/Tomato">
+      <div class="card__background" style="background-image: url(https://images6.alphacoders.com/407/407038.jpg)"></div>
+      <div class="card__content">
+        <h4 class="card__heading">Tomato</h4>
+        <p class="card__category mt-5 text-white">Cultivation Companion plants. Tomatoes serve, or are served by, a large variety of companion plants .</p>
+      </div>
+    </a>
+
+ 
+  <div>
+</section>
+</div>
+
+
+        
+
+	<!--start overlay-->
+		  <div class="overlay toggle-menu"></div>
+		<!--end overlay-->
+  </div>
+	
+    <!-- End container-fluid-->
+   </div><!--End content-wrapper-->
+   <!--Start Back To Top Button-->
+    <a href="javaScript:void();" class="back-to-top"><i class="fa fa-angle-double-up"></i> </a>
+    <!--End Back To Top Button-->
+	
+	<!--Start footer-->
+  <footer class="footer">
+    <div class="container">
+      <div class="text-center">
+        Copyright © 2022 <a href="https://codebook.in/"> Student Name</a>
+      </div>
+    </div>
+  </footer>
+	<!--End footer-->
+	
+	<!--start color switcher-->
+   <div class="right-sidebar">
+    <div class="switcher-icon">
+      <i class="zmdi zmdi-settings zmdi-hc-spin"></i>
+    </div>
+    <div class="right-sidebar-content">
+
+      <p class="mb-0">Gaussion Texture</p>
+      <hr>
+      
+      <ul class="switcher">
+        <li id="theme1"></li>
+        <li id="theme2"></li>
+        <li id="theme3"></li>
+        <li id="theme4"></li>
+        <li id="theme5"></li>
+        <li id="theme6"></li>
+      </ul>
+
+      <p class="mb-0">Gradient Background</p>
+      <hr>
+      
+      <ul class="switcher">
+        <li id="theme7"></li>
+        <li id="theme8"></li>
+        <li id="theme9"></li>
+        <li id="theme10"></li>
+        <li id="theme11"></li>
+        <li id="theme12"></li>
+		<li id="theme13"></li>
+        <li id="theme14"></li>
+        <li id="theme15"></li>
+      </ul>
+      
+     </div>
+   </div>
+  <!--end color switcher-->
+   
+  </div><!--End wrapper-->
+  {% if messages %}
+  {% for message in messages %}
+  {% if message.level == DEFAULT_MESSAGE_LEVELS.SUCCESS %}
+  <script>swal({
+          title: "Success!",
+          text: "{{message}}",
+          icon: "success",
+          button: "OK",
+      });
+  </script>
+  
+  {% elif message.level == DEFAULT_MESSAGE_LEVELS.WARNING %}
+  <script>swal({
+          title: "Warning :)",
+          text: "{{message}}",
+          icon: "warning",
+          button: "OK",
+      });
+  </script>
+  {% elif message.level == DEFAULT_MESSAGE_LEVELS.INFO %}
+  <script>swal({
+          title: "info :)",
+          text: "{{message}}",
+          icon: "info",
+          button: "OK",
+      });
+  </script>
+  {% elif message.level == DEFAULT_MESSAGE_LEVELS.ERROR %}
+  <script>swal({
+          title: "error :)",
+          text: "{{message}}",
+          icon: "error",
+          button: "OK",
+      });
+  </script>
+  {% endif %}
+  {% endfor %}
+  {% endif %}
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  
+
+  <!-- Bootstrap core JavaScript-->
+  <script src="{% static 'user/assets/js/jquery.min.js' %}"></script>
+  <script src="{% static 'user/assets/js/popper.min.js' %}"></script>
+  <script src="{% static 'user/assets/js/bootstrap.min.js' %}"></script>
+  <script src="{% static 'user/assets/js/mycards.js' %}"></script>
+
+	
+  <!-- simplebar js -->
+  <script src="{% static 'user/assets/plugins/simplebar/js/simplebar.js' %}"></script>
+  <!-- sidebar-menu js -->
+  <script src="{% static 'user/assets/js/sidebar-menu.js' %}"></script>
+  
+  <!-- Custom scripts -->
+  <script src="{% static 'user/assets/js/app-script.js' %}"></script>
+	
+</body>
+</html>

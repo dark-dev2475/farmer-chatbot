@@ -1,0 +1,39 @@
+{
+  "id": "59a32f9b-bf58-4b46-9a79-b7832dd841d2",
+  "parentId": "ed69e34a-d03a-45e7-a272-bcfdc1c1222f",
+  "rootParentId": "399d510b-01df-4e10-b722-2824dbe80148",
+  "name": "query-rice-Crop-Production-Practices",
+  "auto": true,
+  "contexts": [
+    "query-rice-followup-2"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "query.query-rice.query-rice-Crop-Production-Practices",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "In India Rice is mainly grown in two types of soils i.e., (i) uplands and (ii) low lands. The method of cultivation of rice in a particular region depends largely on factors such as situation of land, type of soils, irrigation facilities, availability of labourers intensity and distribution of rainfalls. The crop of rice is grown with the following methods\nDry or Semi-dry upland cultivation\nBroadcasting the seedSowing the seed behind the plough or drillingWet or lowland cultivation\nTransplanting in puddled fields.Broadcasting sprouted seeds in puddled fields."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

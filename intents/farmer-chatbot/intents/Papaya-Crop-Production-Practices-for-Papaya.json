@@ -1,0 +1,115 @@
+{
+  "id": "99b02a33-92e2-4aeb-ab59-95c65e8ea918",
+  "name": "Papaya-Crop-Production-Practices-for-Papaya",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Here is some info About🤖 :"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://www.flickr.com/photos/ricephotos/13597007274"
+                    }
+                  },
+                  "type": "accordion",
+                  "text": "Three or four ploughings in the summer, repeated harrowing in the rainy season, followed by three or four cultivations and planking immediately before sowing produce a good, firm seed bed for the dry crop on alluvial soils. For the irrigated crop, the land is given a pre-sowing irrigation (palewa or raund) and the number of ploughings is reduced. Where white ants or other pests are a problem, Aldrin 5% or BHC 10% dust at the rate of 25 kg/ha should be applied to the soil after the last ploughing or before planking.",
+                  "subtitle": "The Papaya crop requires a well-pulverized but compact seed bed for good and uniform germination.",
+                  "title": "Crop Production Practices for Papaya"
+                },
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "link": "http://127.0.0.1:8000/media/relatedvideos/practice.mp4",
+                      "text": "Related Video",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3074/3074767.png"
+                        }
+                      }
+                    },
+                    {
+                      "link": "http://127.0.0.1:8000/media/relatedpdf/practice.pdf",
+                      "text": "Related Documents",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/5968/5968517.png"
+                        }
+                      }
+                    },
+                    {
+                      "text": "Select Topic",
+                      "type": "button",
+                      "value": "Select Topic",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "name": "Select Topic"
+                    },
+                    {
+                      "type": "button",
+                      "value": "Try A Different Question For Papaya",
+                      "name": "Try A Different Question For Papaya",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "text": "Try A Different Question For Papaya"
+                    },
+                    {
+                      "name": "Deficiency In Plants",
+                      "text": "Deficiency In Plants",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/5670/5670633.png"
+                        }
+                      },
+                      "value": "Deficiency In Plants",
+                      "type": "button"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

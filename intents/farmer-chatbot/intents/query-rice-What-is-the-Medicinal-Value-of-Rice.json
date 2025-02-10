@@ -1,0 +1,39 @@
+{
+  "id": "b9b1dfbe-3f21-4441-a2ff-940b12d66388",
+  "parentId": "ed69e34a-d03a-45e7-a272-bcfdc1c1222f",
+  "rootParentId": "399d510b-01df-4e10-b722-2824dbe80148",
+  "name": "query-rice-What-is-the-Medicinal-Value-of-Rice",
+  "auto": true,
+  "contexts": [
+    "query-rice-followup-2"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "query.query-rice.query-rice-What-is-the-Medicinal-Value-of-Rice",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The immense diversity of rice germplasm is a rich source for many rice based products and is also used for treating many health related maladies such as indigestion, diabetes, arthritis, paralysis, epilepsy and give strength to pregnant and lactating mothers. Ancient Ayurvedic literature testify the medicinal and curative properties of different types of rice grown in India. Medicinal rice varieties like Kanthi Banko (Chhattisgarh), Meher, Saraiphul \u0026 Danwar (Orissa), Atikaya \u0026 Kari Bhatta (Karnataka), are very common in India. Few varieties cultivated in restricted pockets of Kerala for their medical properties e.g. Chennellu, Kunjinellu, Erumakkari \u0026 Karuthachembavu etc."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,130 @@
+{
+  "id": "d0ec8121-dfe5-4b02-9283-1dbf7c387cb9",
+  "name": "Wheat",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Here are some FAQ\u0027s about Wheat😁"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "name": "What are the Climatic Requirements for Wheat",
+                      "text": "What are the Climatic Requirements for Wheat",
+                      "value": "What are the Climatic Requirements for Wheat",
+                      "type": "button",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      }
+                    },
+                    {
+                      "type": "button",
+                      "text": "What is the Nutritional value of Wheat",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "name": "What is the Nutritional value of Wheat",
+                      "value": "What is the Nutritional value of Wheat"
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "type": "button",
+                      "name": "What is the Medicinal Value of Wheat",
+                      "text": "What is the Medicinal Value of Wheat",
+                      "value": "What is the Medicinal Value of Wheat"
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "name": "Crop Production Practices for Wheat",
+                      "value": "Crop Production Practices for Wheat",
+                      "type": "button",
+                      "text": "Crop Production Practices for Wheat"
+                    },
+                    {
+                      "type": "button",
+                      "text": "Selection of Seeds for Wheat",
+                      "value": "Selection of Seeds for Wheat",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "name": "Selection of Seeds for Wheat"
+                    },
+                    {
+                      "value": "Select Topic",
+                      "text": "Select Topic",
+                      "type": "button",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "name": "Select Topic"
+                    },
+                    {
+                      "name": "Deficiency In Plants",
+                      "text": "Deficiency In Plants",
+                      "value": "Deficiency In Plants",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/5670/5670633.png"
+                        }
+                      },
+                      "type": "button"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

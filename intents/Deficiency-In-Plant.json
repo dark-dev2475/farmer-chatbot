@@ -1,0 +1,98 @@
+{
+  "id": "6a306fe3-ee72-4a1a-a5cc-0978e95dc8b4",
+  "name": "Deficiency-In-Plant",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "type": "button",
+                      "value": "Insufficient Soil Preparation",
+                      "name": "Insufficient Soil Preparation",
+                      "text": "Insufficient Soil Preparation"
+                    },
+                    {
+                      "type": "button",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "name": "Not Enough Sunlight",
+                      "value": "Not Enough Sunlight",
+                      "text": "Not Enough Sunlight"
+                    },
+                    {
+                      "name": "Not Enough Water",
+                      "type": "button",
+                      "value": "Not Enough Water",
+                      "text": "Not Enough Water",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      }
+                    },
+                    {
+                      "value": "Planting At The Wrong Time",
+                      "text": "Planting At The Wrong Time",
+                      "type": "button",
+                      "name": "Planting At The Wrong Time",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      }
+                    },
+                    {
+                      "text": "Too Much Sunshine",
+                      "type": "button",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "value": "Too Much Sunshine",
+                      "name": "Too Much Sunshine"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

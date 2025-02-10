@@ -1,0 +1,366 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>ChatBot</title>
+    <!-- loader-->
+    <link href="{% static 'user/assets/css/pace.min.css' %}" rel="stylesheet" />
+    <script src="{% static 'user/assets/js/pace.min.js' %}"></script>
+    <!--favicon-->
+    <link
+      rel="icon"
+      href="{% static 'user/assets/images/favicon.ico' %}"
+      type="image/x-icon"
+    />
+    <!-- Vector CSS -->
+    <link
+      href="{% static 'user/assets/plugins/vectormap/jquery-jvectormap-2.0.2.css' %}"
+      rel="stylesheet"
+    />
+    <!-- simplebar CSS-->
+    <link
+      href="{% static 'user/assets/plugins/simplebar/css/simplebar.css' %}"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap core CSS-->
+    <link
+      href="{% static 'user/assets/css/bootstrap.min.css' %}"
+      rel="stylesheet"
+    />
+    <!-- animate CSS-->
+    <link
+      href="{% static 'user/assets/css/animate.css' %}"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Icons CSS-->
+    <link
+      href="{% static 'user/assets/css/icons.css' %}"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Sidebar CSS-->
+    <link
+      href="{% static 'user/assets/css/sidebar-menu.css' %}"
+      rel="stylesheet"
+    />
+    <!-- Custom Style-->
+    <link
+      href="{% static 'user/assets/css/app-style.css' %}"
+      rel="stylesheet"
+    />
+    <style>
+      .my {
+        margin: 0;
+        height: 100vh;
+        display: grid;
+        place-items: center;
+      }
+
+      a.wave {
+        font: 600 10px consolas;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 15px 30px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 5px;
+        transition: 0.2s;
+        transform: scale(2);
+      }
+
+      a span {
+        position: relative;
+        z-index: 0;
+        color: #fff;
+      }
+
+      a .liquid {
+        position: absolute;
+        top: -60px;
+        left: 0;
+        width: 100%;
+        height: 200px;
+        background: #7293ff;
+        box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.7);
+        z-index: -1;
+        transition: 0.6s;
+      }
+
+      a .liquid::after,
+      a .liquid::before {
+        position: absolute;
+        content: "";
+        width: 200%;
+        height: 200%;
+        top: 0;
+        left: 0;
+        transform: translate(-25%, -75%);
+      }
+
+      a .liquid::after {
+        border-radius: 45%;
+        background: rgba(20, 20, 20, 1);
+        box-shadow: 0 0 10px 5px #7293ff, inset 0 0 5px #7293ff;
+        animation: animate 5s linear infinite;
+        opacity: 0.8;
+      }
+
+      a .liquid::before {
+        border-radius: 40%;
+        box-shadow: 0 0 10px rgba(26, 26, 26, 0.5),
+          inset 0 0 5px rgba(26, 26, 26, 0.5);
+        background: rgba(26, 26, 26, 0.5);
+
+        animation: animate 7s linear infinite;
+      }
+
+      @keyframes animate {
+        0% {
+          transform: translate(-25%, -75%) rotate(0);
+        }
+        100% {
+          transform: translate(-25%, -75%) rotate(360deg);
+        }
+      }
+      a:hover .liquid {
+        top: -120px;
+      }
+
+      a:hover {
+        transition-delay: 0.2s;
+      }
+    </style>
+  </head>
+
+  <body class="bg-theme bg-theme1">
+    <!-- Start wrapper-->
+    <div id="wrapper">
+      <!--Start sidebar-wrapper-->
+      <div
+        id="sidebar-wrapper"
+        data-simplebar=""
+        data-simplebar-auto-hide="true"
+      >
+        <ul class="sidebar-menu do-nicescrol">
+          <li class="sidebar-header">MAIN NAVIGATION</li>
+          <li>
+            <a href="{% url 'user_dashboard' %}">
+              <i class="zmdi zmdi-group"></i> <span>Dashboard</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="{% url 'user_chatbot_btn' %}">
+              <i class="zmdi zmdi-face"></i> <span>Chatbot</span>
+            </a>
+          </li>
+          <li class="sidebar-header">Account</li>
+          <li>
+            <a href="{% url 'user_myprofile' %}">
+              <i class="zmdi zmdi-account-o"></i> <span>My Profile</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="{% url 'user_edit_profile' %}">
+              <i class="zmdi zmdi-accounts-list"></i> <span>Edit Profile</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="{% url 'user_password' %}">
+              <i class="zmdi zmdi-lock"></i> <span>Change Password</span>
+            </a>
+          </li>
+          <li class="sidebar-header">General</li>
+          <li>
+            <a href="{% url 'user_cropdetails' %}">
+              <i class="zmdi zmdi-card"></i> <span>Crop Details</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="{% url 'user_fertilizer' %}">
+              <i class="zmdi zmdi-card-giftcard"></i>
+              <span>Fertilizer Details</span>
+            </a>
+          </li>
+          <li>
+            <a href="{% url 'user_feedback' %}">
+              <i class="zmdi zmdi-card"></i>
+              <span>Feedback</span>
+            </a>
+          </li>
+          <li>
+            <a href="{% url 'home' %}"> <i class="zmdi zmdi-run"></i> <span>Logout</span> </a>
+          </li>
+        </ul>
+      </div>
+      <!--End sidebar-wrapper-->
+
+      <!--Start topbar header-->
+
+      <!--End topbar header-->
+      <div class="clearfix"></div>
+
+      <div class="content-wrappe">
+        <div
+          class="container-fluid d-flex"
+          style="
+            background-image: url(static/user/assets/images/farm.png);
+            margin-left: 200px;
+          "
+        >
+          <!--Start Dashboard Content-->
+
+          <div class="row">
+            <div class="col-12 col-lg-12 col-xl-12">
+              <div>
+                <div class="card-body my">
+                  <img src="" alt="" />
+                  <a href="{% url 'user_chatbot' %}" class="wave">
+                    <span>Initialize AgriBot</span>
+                    <div class="liquid"></div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--End Row-->
+
+          <!--End Row-->
+
+          <!--End Dashboard Content-->
+
+          <!--start overlay-->
+          <div class="overlay toggle-menu"></div>
+          <!--end overlay-->
+        </div>
+        <!-- End container-fluid-->
+      </div>
+      <!--End content-wrapper-->
+      <!--Start Back To Top Button-->
+      <a href="javaScript:void();" class="back-to-top"
+        ><i class="fa fa-angle-double-up"></i>
+      </a>
+      <!--End Back To Top Button-->
+
+      <!--Start footer-->
+      <footer class="footer">
+        <div class="container">
+          <div class="text-center">
+            Copyright © 2022 <a href="https://codebook.in/"> Student Name</a>
+          </div>
+        </div>
+      </footer>
+      <!--End footer-->
+
+      <!--start color switcher-->
+      <div class="right-sidebar">
+        <div class="switcher-icon">
+          <i class="zmdi zmdi-settings zmdi-hc-spin"></i>
+        </div>
+        <div class="right-sidebar-content">
+          <p class="mb-0">Gaussion Texture</p>
+          <hr />
+
+          <ul class="switcher">
+            <li id="theme1"></li>
+            <li id="theme2"></li>
+            <li id="theme3"></li>
+            <li id="theme4"></li>
+            <li id="theme5"></li>
+            <li id="theme6"></li>
+          </ul>
+
+          <p class="mb-0">Gradient Background</p>
+          <hr />
+
+          <ul class="switcher">
+            <li id="theme7"></li>
+            <li id="theme8"></li>
+            <li id="theme9"></li>
+            <li id="theme10"></li>
+            <li id="theme11"></li>
+            <li id="theme12"></li>
+            <li id="theme13"></li>
+            <li id="theme14"></li>
+            <li id="theme15"></li>
+          </ul>
+        </div>
+      </div>
+      <!--end color switcher-->
+    </div>
+    <!--End wrapper-->
+
+    <!-- Bootstrap core JavaScript-->
+    {% if messages %}
+    {% for message in messages %}
+    {% if message.level == DEFAULT_MESSAGE_LEVELS.SUCCESS %}
+    <script>swal({
+            title: "Success!",
+            text: "{{message}}",
+            icon: "success",
+            button: "OK",
+        });
+    </script>
+    
+    {% elif message.level == DEFAULT_MESSAGE_LEVELS.WARNING %}
+    <script>swal({
+            title: "Warning :)",
+            text: "{{message}}",
+            icon: "warning",
+            button: "OK",
+        });
+    </script>
+    {% elif message.level == DEFAULT_MESSAGE_LEVELS.INFO %}
+    <script>swal({
+            title: "info :)",
+            text: "{{message}}",
+            icon: "info",
+            button: "OK",
+        });
+    </script>
+    {% elif message.level == DEFAULT_MESSAGE_LEVELS.ERROR %}
+    <script>swal({
+            title: "error :)",
+            text: "{{message}}",
+            icon: "error",
+            button: "OK",
+        });
+    </script>
+    {% endif %}
+    {% endfor %}
+    {% endif %}
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    
+    <script src="{% static 'user/assets/js/jquery.min.js' %}"></script>
+    <script src="{% static 'user/assets/js/popper.min.js' %}"></script>
+    <script src="{% static 'user/assets/js/bootstrap.min.js' %}"></script>
+
+    <!-- simplebar js -->
+    <script src="{% static 'user/assets/plugins/simplebar/js/simplebar.js' %}"></script>
+    <!-- sidebar-menu js -->
+    <script src="{% static 'user/assets/js/sidebar-menu.js' %}"></script>
+    <!-- loader scripts -->
+    <script src="{% static 'user/assets/js/jquery.loading-indicator.js' %}"></script>
+    <!-- Custom scripts -->
+    <script src="{% static 'user/assets/js/app-script.js' %}"></script>
+    <!-- Chart js -->
+
+    <script src="{% static 'user/assets/plugins/Chart.js/Chart.min.js' %}"></script>
+
+    <!-- Index js -->
+    <script src="{% static 'user/assets/js/index.js' %}"></script>
+  </body>
+</html>

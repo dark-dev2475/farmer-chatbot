@@ -1,0 +1,130 @@
+{
+  "id": "04ad558c-78c1-4ebc-b5b5-f19648860615",
+  "name": "Cotton",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Here are some FAQ\u0027s about Cotton😁"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "value": "What are the Climatic Requirements for Cotton",
+                      "text": "What are the Climatic Requirements for Cotton",
+                      "name": "What are the Climatic Requirements for Cotton",
+                      "type": "button"
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "name": "What is the Nutritional value of Cotton",
+                      "value": "What is the Nutritional value of Cotton",
+                      "text": "What is the Nutritional value of Cotton",
+                      "type": "button"
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "type": "button",
+                      "value": "What is the Medicinal Value of Cotton",
+                      "name": "What is the Medicinal Value of Cotton",
+                      "text": "What is the Medicinal Value of Cotton"
+                    },
+                    {
+                      "text": "Crop Production Practices for Cotton",
+                      "type": "button",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "name": "Crop Production Practices for Cotton",
+                      "value": "Crop Production Practices for Cotton"
+                    },
+                    {
+                      "type": "button",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "text": "Selection of Seeds for Cotton",
+                      "name": "Selection of Seeds for Cotton",
+                      "value": "Selection of Seeds for Cotton"
+                    },
+                    {
+                      "text": "Select Topic",
+                      "value": "Select Topic",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "type": "button",
+                      "name": "Select Topic"
+                    },
+                    {
+                      "value": "Deficiency In Plants",
+                      "type": "button",
+                      "name": "Deficiency In Plants",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/5670/5670633.png"
+                        }
+                      },
+                      "text": "Deficiency In Plants"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

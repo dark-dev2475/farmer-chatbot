@@ -1,0 +1,130 @@
+{
+  "id": "4a6ff30f-5480-46ab-bab9-fe538417442a",
+  "name": "Corn",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Here are some FAQ\u0027s about Corn😁"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "type": "button",
+                      "text": "What are the Climatic Requirements for Corn",
+                      "value": "What are the Climatic Requirements for Corn",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "name": "What are the Climatic Requirements for Corn"
+                    },
+                    {
+                      "value": "What is the Nutritional value of Corn",
+                      "text": "What is the Nutritional value of Corn",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "name": "What is the Nutritional value of Corn",
+                      "type": "button"
+                    },
+                    {
+                      "text": "What is the Medicinal Value of Corn",
+                      "type": "button",
+                      "value": "What is the Medicinal Value of Corn",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "name": "What is the Medicinal Value of Corn"
+                    },
+                    {
+                      "name": "Crop Production Practices for Corn",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "value": "Crop Production Practices for Corn",
+                      "text": "Crop Production Practices for Corn",
+                      "type": "button"
+                    },
+                    {
+                      "type": "button",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "value": "Selection of Seeds for Corn",
+                      "name": "Selection of Seeds for Corn",
+                      "text": "Selection of Seeds for Corn"
+                    },
+                    {
+                      "text": "Select Topic",
+                      "value": "Select Topic",
+                      "type": "button",
+                      "name": "Select Topic",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      }
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/5670/5670633.png"
+                        }
+                      },
+                      "type": "button",
+                      "name": "Deficiency In Plants",
+                      "value": "Deficiency In Plants",
+                      "text": "Deficiency In Plants"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

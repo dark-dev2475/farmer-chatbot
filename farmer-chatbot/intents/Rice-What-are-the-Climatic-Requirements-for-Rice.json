@@ -1,0 +1,120 @@
+{
+  "id": "54cfbefc-c6a2-419a-ae2a-599d3ef2a870",
+  "name": "Rice-What-are-the-Climatic-Requirements-for-Rice",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Rice-What-are-the-Climatic-Requirements-for-Rice",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Here is some info About🤖 :"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": "Rice cultivation in India extends from 8 to35ºN latitude and from sea level to as high as 3000 meters. Rice crop needs a hot and humid climate. It is best suited to regions which have high humidity, prolonged sunshine and an assured supply of water.",
+                  "subtitle": "In India rice is grown under widely varying conditions of altitude and climate.",
+                  "title": "What are the Climatic Requirements for Rice",
+                  "type": "accordion",
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://www.flickr.com/photos/ricephotos/13597007274"
+                    }
+                  }
+                },
+                {
+                  "type": "list",
+                  "subtitle": "Rice is a tropical crop and grown where the average temperature during the growing season is between 20°C and 27°C.Abundant sunshine is essential during its four months of growth. The minimum temperature should not go below 15°C as germination cannot take place below that temperature.",
+                  "title": "Temperature:"
+                },
+                {
+                  "options": [
+                    {
+                      "link": "http://127.0.0.1:8000/media/relatedvideos/climate.mp4",
+                      "text": "Related Video",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3074/3074767.png"
+                        }
+                      }
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/5968/5968517.png"
+                        }
+                      },
+                      "text": "Related Documents",
+                      "link": "http://127.0.0.1:8000/media/relatedpdf/climate.pdf"
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "value": "Select Topic",
+                      "name": "Select Topic",
+                      "type": "button",
+                      "text": "Select Topic"
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "type": "button",
+                      "value": "Try A Different Question For Rice",
+                      "text": "Try A Different Question For Rice",
+                      "name": "Try A Different Question For Rice"
+                    },
+                    {
+                      "type": "button",
+                      "name": "Deficiency In Plants",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/5670/5670633.png"
+                        }
+                      },
+                      "text": "Deficiency In Plants",
+                      "value": "Deficiency In Plants"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

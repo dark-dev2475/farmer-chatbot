@@ -1,0 +1,164 @@
+{
+  "id": "b673db0f-63d3-458c-a50c-a8da27f2e227",
+  "name": "Assist",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Here Are Some Topics I Can Assist With 🤖 .Feel Free To Select One😉",
+            "Here Are Some Topics I Can Assist With 🤖. Don\u0027t Hesitate 😏"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Rice",
+                      "type": "button",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/616/616428.png"
+                        }
+                      },
+                      "name": "Rice",
+                      "value": "Rice"
+                    },
+                    {
+                      "value": "Wheat",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/7450/7450583.png"
+                        }
+                      },
+                      "type": "button",
+                      "text": "Wheat",
+                      "name": "Wheat"
+                    },
+                    {
+                      "value": "Corn",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/8930/8930958.png"
+                        }
+                      },
+                      "type": "button",
+                      "text": "Corn",
+                      "name": "Corn"
+                    },
+                    {
+                      "name": "Potato",
+                      "text": "Potato",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/1652/1652077.png"
+                        }
+                      },
+                      "value": "Potato",
+                      "type": "button"
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3944/3944317.png"
+                        }
+                      },
+                      "text": "Cotton",
+                      "name": "Cotton",
+                      "value": "Cotton",
+                      "type": "button"
+                    },
+                    {
+                      "name": "Maize",
+                      "text": "Maize",
+                      "type": "button",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3944/3944275.png"
+                        }
+                      },
+                      "value": "Maize"
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/765/765552.png"
+                        }
+                      },
+                      "name": "Papaya",
+                      "text": "Papaya",
+                      "type": "button",
+                      "value": "Papaya"
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/5670/5670633.png"
+                        }
+                      },
+                      "name": "Sugarcane",
+                      "type": "button",
+                      "text": "Sugarcane",
+                      "value": "Sugarcane"
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/5280/5280911.png"
+                        }
+                      },
+                      "name": "Tomato",
+                      "type": "button",
+                      "text": "Tomato",
+                      "value": "Tomato"
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/5670/5670633.png"
+                        }
+                      },
+                      "name": "Deficiency In Plants",
+                      "type": "button",
+                      "value": "Deficiency In Plants",
+                      "text": "Deficiency In Plants"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

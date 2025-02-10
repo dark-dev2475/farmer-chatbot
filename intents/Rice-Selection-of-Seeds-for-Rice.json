@@ -1,0 +1,115 @@
+{
+  "id": "9f4cdc1f-9663-41e3-b0c2-ece1f9e11ac2",
+  "name": "Rice-Selection-of-Seeds-for-Rice",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Rice-Selection-of-Seeds-for-Rice",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Here is some info About🤖 :"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": "Much of the success in raising the healthy seedlings depends on the quality of seed. Seeds intended for sowing should satisfy the following requirements.The seed should belong to the proper variety, which is proposed to be grown.The seed should be clean and free from obvious mixtures of other seeds.The seed should be mature, well developed and plump in size.The seed should be free from obvious signs of age or bad storage.The seed should have a high germinating capacity.Before sowing the seed should be treated with fungicides which protects the seed against soil-born fungi and also give a boost to the seedlings.",
+                  "title": "Selection of Seeds for Rice",
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://www.flickr.com/photos/ricephotos/13597007274"
+                    }
+                  },
+                  "type": "accordion",
+                  "subtitle": "The use of quality seeds in cultivation of rice is an important factor to get better crop yield. Therefore, proper care has to be taken in selecting seeds of the best quality."
+                },
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3074/3074767.png"
+                        }
+                      },
+                      "link": "http://127.0.0.1:8000/media/relatedvideos/seeds.mp4",
+                      "text": "Related Video"
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/5968/5968517.png"
+                        }
+                      },
+                      "text": "Related Documents",
+                      "link": "http://127.0.0.1:8000/media/relatedpdf/seeds.pdf"
+                    },
+                    {
+                      "text": "Select Topic",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "value": "Select Topic",
+                      "type": "button",
+                      "name": "Select Topic"
+                    },
+                    {
+                      "name": "Try A Different Question For Rice",
+                      "text": "Try A Different Question For Rice",
+                      "type": "button",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "value": "Try A Different Question For Rice"
+                    },
+                    {
+                      "text": "Deficiency In Plants",
+                      "name": "Deficiency In Plants",
+                      "value": "Deficiency In Plants",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/5670/5670633.png"
+                        }
+                      },
+                      "type": "button"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

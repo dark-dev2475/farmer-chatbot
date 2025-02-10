@@ -1,0 +1,83 @@
+{
+  "id": "255df339-3f8b-4289-8345-b2bddf6a3474",
+  "name": "Not-Enough-Sunlight",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "accordion",
+                  "subtitle": "Signs: pale yellow or green leaves, dropped leaves, small leaves, extreme stem growth looking for a source of light.",
+                  "title": "Not Enough Sunlight",
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://www.flickr.com/photos/ricephotos/13597007274"
+                    }
+                  },
+                  "text": "Plants prone to this problem: Jade, aloe vera, snapdragon flower, and purple coneflower all enjoy ample sunlight.Conversely, plants that don’t get enough sunlight cannot grow properly. So if you notice your young plants have grown extremely long and skinny, this is a common sign of insufficient sunlight. Your plant is using all of its resources to try and stretch itself and find the sun or a source of light. It will not use its resources to make sugars to grow leaves until it has enough sunshine. To combat stretching and leaning, turn your plant periodically to make sure all sides get an equal amount of light. If your plant is turning a pale yellow, this could also be a symptom of not enough sunshine. Sunlight helps produce chlorophyll, which is the pigment that produces a vibrant green color that is seen in a healthy plant."
+                },
+                {
+                  "options": [
+                    {
+                      "text": "Select Topic",
+                      "name": "Select Topic",
+                      "value": "Select Topic",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "type": "button"
+                    },
+                    {
+                      "type": "button",
+                      "text": "Deficiency In Plants",
+                      "name": "Deficiency In Plants",
+                      "value": "Deficiency In Plants",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/5670/5670633.png"
+                        }
+                      }
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

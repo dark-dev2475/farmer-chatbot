@@ -1,0 +1,82 @@
+{
+  "id": "0d32a075-116a-483a-9653-52b08c1dfa3d",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Hi! How are you doing?",
+            "Hello! How can I help you?",
+            "Good day! What can I do for you today?",
+            "Greetings! How can I assist?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "rawUrl": "https://t4.ftcdn.net/jpg/02/99/14/71/240_F_299147134_m5TaoaJ0iwfT0sDDAuvHfGUqdCQ8m5yO.jpg",
+                  "type": "image",
+                  "accessibilityText": "Dialogflow across platforms"
+                },
+                {
+                  "type": "info",
+                  "actionLink": "https://cloud.google.com/dialogflow/docs",
+                  "title": "Farmer BOT",
+                  "subtitle": "Hi I\u0027m Farmer BOT🤖. A virtual Bot Created To Solve The Problems Faced By Farmers.I\u0027ll Assist So Hold Tight😉"
+                },
+                {
+                  "options": [
+                    {
+                      "name": "Let\u0027s Start",
+                      "type": "button",
+                      "text": "Let\u0027s Start",
+                      "image": {
+                        "src": {
+                          "rawUrl": "http://127.0.0.1:8000/media/icon.png"
+                        }
+                      },
+                      "value": "Let\u0027s Start"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

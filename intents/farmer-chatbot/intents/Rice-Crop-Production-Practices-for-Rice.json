@@ -1,0 +1,115 @@
+{
+  "id": "658917ae-715b-4125-a630-6f24ffe158bd",
+  "name": "Rice-Crop-Production-Practices-for-Rice",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Rice-Crop-Production-Practices-for-Rice",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Here is some info About🤖 :"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": "The method of cultivation of rice in a particular region depends largely on factors such as situation of land, type of soils, irrigation facilities, availability of labourers intensity and distribution of rainfalls. The crop of rice is grown with the following methods.Dry or Semi-dry upland cultivation.Broadcasting the seedSowing the seed behind the plough or drillingWet or lowland cultivation.Transplanting in puddled fields.Broadcasting sprouted seeds in puddled fields.",
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://www.flickr.com/photos/ricephotos/13597007274"
+                    }
+                  },
+                  "subtitle": "In India Rice is mainly grown in two types of soils i.e., (i) uplands and (ii) low lands.",
+                  "title": "Crop Production Practices for Rice",
+                  "type": "accordion"
+                },
+                {
+                  "options": [
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3074/3074767.png"
+                        }
+                      },
+                      "text": "Related Video",
+                      "link": "http://127.0.0.1:8000/media/relatedvideos/practice.mp4"
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/5968/5968517.png"
+                        }
+                      },
+                      "text": "Related Documents",
+                      "link": "http://127.0.0.1:8000/media/relatedpdf/practice.pdf"
+                    },
+                    {
+                      "type": "button",
+                      "name": "Select Topic",
+                      "value": "Select Topic",
+                      "text": "Select Topic",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      }
+                    },
+                    {
+                      "value": "Try A Different Question For Rice",
+                      "text": "Try A Different Question For Rice",
+                      "type": "button",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "name": "Try A Different Question For Rice"
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/5670/5670633.png"
+                        }
+                      },
+                      "text": "Deficiency In Plants",
+                      "type": "button",
+                      "value": "Deficiency In Plants",
+                      "name": "Deficiency In Plants"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

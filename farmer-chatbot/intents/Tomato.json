@@ -1,0 +1,130 @@
+{
+  "id": "eec3d210-5a53-4e8f-ba6a-396a1ba4465a",
+  "name": "Tomato",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Here are some FAQ\u0027s about Tomato😁"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "What are the Climatic Requirements for Tomato",
+                      "value": "What are the Climatic Requirements for Tomato",
+                      "name": "What are the Climatic Requirements for Tomato",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "type": "button"
+                    },
+                    {
+                      "name": "What is the Nutritional value of Tomato",
+                      "text": "What is the Nutritional value of Tomato",
+                      "type": "button",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "value": "What is the Nutritional value of Tomato"
+                    },
+                    {
+                      "value": "What is the Medicinal Value of Tomato",
+                      "type": "button",
+                      "name": "What is the Medicinal Value of Tomato",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "text": "What is the Medicinal Value of Tomato"
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "type": "button",
+                      "text": "Crop Production Practices for Tomato",
+                      "name": "Crop Production Practices for Tomato",
+                      "value": "Crop Production Practices for Tomato"
+                    },
+                    {
+                      "value": "Selection of Seeds for Tomato",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "type": "button",
+                      "name": "Selection of Seeds for Tomato",
+                      "text": "Selection of Seeds for Tomato"
+                    },
+                    {
+                      "text": "Select Topic",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/3240/3240831.png"
+                        }
+                      },
+                      "value": "Select Topic",
+                      "name": "Select Topic",
+                      "type": "button"
+                    },
+                    {
+                      "type": "button",
+                      "text": "Deficiency In Plants",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn-icons-png.flaticon.com/512/5670/5670633.png"
+                        }
+                      },
+                      "value": "Deficiency In Plants",
+                      "name": "Deficiency In Plants"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
