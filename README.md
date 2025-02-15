@@ -23,6 +23,9 @@ conda install -c anaconda flask
 pip install pandas
 pip install werkzeug==2.3.7
 
+Setup the wampserver.
+
+
 Then run the following command on two different terminals of same anaconda environment:-
 1. python app.py
 2. python manage.py runserver
