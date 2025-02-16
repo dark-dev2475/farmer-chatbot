@@ -15,12 +15,19 @@ GUIDE TO RUN THE project:-
 4. and execute the following commands one by one inside the terminal
 
 pip install tensorflow
+
 conda install -c conda-forge keras
+
 conda install -c anaconda scikit-learn
+
 conda install -c conda-forge opencv
+
 conda install -c anaconda scikit-image
+
 conda install -c anaconda flask
+
 pip install pandas
+
 pip install werkzeug==2.3.7
 
 Setup the wampserver.
@@ -28,6 +35,7 @@ Setup the wampserver.
 
 Then run the following command on two different terminals of same anaconda environment:-
 1. python app.py
+   
 2. python manage.py runserver
 
 Run these commands on 2 different terminals.     
