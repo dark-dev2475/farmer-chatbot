@@ -20,6 +20,10 @@ AgriBot is an intelligent chatbot assistant built to support farmers with real-t
 - 📈 **Sustainable Farming Support**  
   Encourages practices that boost productivity, reduce losses, and support eco-friendly agriculture.
 
+Watch the reference video here for the full demo:-
+
+  yt-link-->https://youtu.be/mYC8qUNGizo
+
 ---
 
 ## 🧠 Tech Stack
